@@ -1,3 +1,5 @@
+<?php require_once( 'couch/cms.php' ); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,40 +12,21 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/custom-min.js" type="text/javascript"></script>
 
-
-	<!-- Google Analytics -->
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-41574595-1', 'colinbrooks.us');
-	ga('send', 'pageview');
-
-	</script>
-	<!-- End Google Analytics -->
-
 </head>
 <body>
-
-
-
-
-
 
 
 	<!-- Header -->
 	<?php include 'header.php'; ?>
 	<!-- End Header -->
 
-
+<!-- 
 	<?php
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];
-	$from = 'From: colinbrooks.us'; 
-	$to = 'colinbookst@gmail.com'; 
+	$from = 'info@colinbrooks.us'; 
+	$to = 'colinbooks@gmail.com'; 
 	$subject = 'Hello';
 	$human = $_POST['human'];
 
@@ -65,7 +48,7 @@
 		}
 	}
 	?>
-
+ -->
 
 <!-- Hero unit, with anchor point zero -->
 <section name="anchor-zero" id="hero-unit">
@@ -119,7 +102,9 @@
 
 					<p>
 
-						I like photography, working with kids, being outside, really cold water, and trying to make things I don't know how to make.
+						I like photography, working with kids, being outside,
+						really cold water, and trying
+						to make things I don't know how to make.
 
 					</p>
 
@@ -158,12 +143,12 @@
 				<div class="project-image-wrapper">
 					<a href="img/project/project-localfoods-inventory.jpg" 
 						data-lightbox="localfoods" 
-						title="A major goal of the project was to make viewing/managing inventory much more pleasant, and with a greater focus on images.">
+						title="A major goal of the project was to make viewing & managing inventory much more pleasant, and have a greater focus on images.">
 						<img src="img/project/project-localfoods-inventory.jpg" class="project-image">
 					</a>
 					<a href="img/project/project-localfoods-cart.jpg" 
 						data-lightbox="localfoods" 
-						title="By using a modals instead of a links whenever possible, users would no longer lose their place and be bumped to another page.">
+						title="By using modals instead of links whenever possible, users would no longer lose their place in lists and be bumped to another page.">
 						<img src="img/project/project-localfoods-cart.jpg" class="project-image" data-lightbox="localfoods" title="blah">
 					</a>
 					<a href="img/project/project-localfoods-stock.jpg" 
@@ -173,7 +158,7 @@
 					</a>
 					<a href="img/project/project-localfoods-mobile.jpg" 
 						data-lightbox="localfoods" 
-						title="I made sure every aspect of the site was mobile and tablet friendly, and fully responsive.">
+						title="I made sure that all major aspects of the site were mobile and tablet friendly, and fully responsive.">
 						<img src="img/project/project-localfoods-mobile.jpg" class="project-image">
 					</a>
 				</div>
@@ -223,7 +208,7 @@
 		<div class="project-image-wrapper">
 			<a href="img/project/project-rays-home.jpg" 
 						data-lightbox="rays" 
-						title="Photos relevant to RAYS now feature prominantly on the home page to help build more emotional connections.">
+						title="Photos relevant to RAYS now feature prominantly on the home page to help build more emotional connections with visitors.">
 				<img src="img/project/project-rays-home.jpg" class="project-image">
 			</a>
 			<a href="img/project/project-rays-kayak.jpg" 
@@ -233,12 +218,12 @@
 			</a>
 			<a href="img/project/project-rays-sparkpage.jpg" 
 						data-lightbox="rays" 
-						title="A goal for the project was to balance having more information available, but keeping it from being overwhelming. Expandable sections were one solution, and pull quotes another.">
+						title="A major goal for the project was to balance having more information available, with keeping it from being overwhelming. Expandable sections were one solution, and pull quotes another.">
 				<img src="img/project/project-rays-sparkpage.jpg" class="project-image">
 			</a>
 			<a href="img/project/project-rays-headshots.jpg" 
 						data-lightbox="rays" 
-						title="On the old site staff photos and bios were nonexistant, so I took new headshots on location for those who needed them.">
+						title="On the old site there were no staff photos or bios, so I took new headshots on location for those who needed them.">
 				<img src="img/project/project-rays-headshots.jpg" class="project-image">
 			</a>
 		</div>
@@ -250,8 +235,8 @@
 		
 		<p>
 
-			The old RAYS site doesn't have a lot of appeal. It had little
-			in the way of personalized content that's at all relevant to the
+			The old RAYS site didn't have a lot of appeal. It had little
+			in the way of personalized content that was at all relevant to the
 			work they actually <em>do</em>. For an organization that does a large
 			portion of its work from referrals, and relies on individual
 			donors, this was less than ideal.
@@ -260,14 +245,14 @@
 
 		<p>
 
-			Starting from scratch, I've been working with RAYS staff to build
+			Starting from scratch, I worked with RAYS staff to build
 			a site filled with both <em>more</em> and more relevant
 			descriptions of the work they do and the people they affect.
 			Building better emotional connections with visitors to their site
 			should allow them to foster more online donations, and become
-			better known within the community. To this end I've interviewed
-			staff, collected stories of clients, written stories of clients,
-			poured through grant applications, and taken photos at events, of
+			better known within the community. To this end I interviewed
+			staff, collected stories of clients, wrote stories of clients,
+			poured through grant applications, and took photos at events, of
 			staff, and around their offices. This is alongside the technical
 			aspects of making a site backed by a new content management system
 			that's easier for staff to work with, so it can be updated more
@@ -276,9 +261,8 @@
 		</p>
 
 		<p>
-
-			The new site isn't up yet, but you can see the old one at <a
-						href="http://rays.org">rays.org</a>.
+			Check it out at 
+			 <a href="http://rays.org">rays.org</a>.
 
 		</p>
 
@@ -399,28 +383,67 @@
 						</p>
 
 
+								<!-- Contact form -->
+				<cms:form method='post' id='contact-form'>
 
-						<form method="post" action="index.php">
-							<li>
-								<label class="contact-label">Name</label>
-								<input name="name" class="contact-input"/>
-							</li>
-							<li>
-								<label class="contact-label">Email</label>
-								<input type="email" name="email" class="contact-input"/>
-							</li>
-							<li>
-								<label class="contact-label">Message</label>
-								<textarea name="message" id="contact-message" class="contact-input"></textarea>
-							</li>
+				<ul class="form-fields">
 
-							<li>
-								<label class="contact-label">What is 3 plus 4? (Anti-spam)</label>
-								<input name="human" class="contact-input" />
-								<li>
+					<li>
+						<label class="contact-label" for="name">Name</label>
+						<cms:input type='text' name='name' id='name' required='1' class="contact-input" />
+						<cms:if k_error_name>
+							<p id='name-error' class='error' style="display:block;">Insert a name</p>
+						</cms:if>
+					</li>
 
-									<input class="btn btn--hard" id="contact-submit" name="submit" type="submit" value="Send it">
-								</form>
+					<li>
+						<label class="contact-label" for="email">Email</label>
+						<cms:input type='text' name='email' id='email' required='1' validator='email' class="contact-input"/>
+						<cms:if k_error_email>
+							<p id='email-error' class='error' style="display:block;">Enter a valid email address</p>
+						</cms:if>
+					</li>
+
+					<li>
+						<label class="contact-label" for="name">Subject</label>
+						<cms:input type='text' name='subject' id='subject' required='1' class="contact-input" />
+						<cms:if k_error_subject>
+							<p id='subject-error' class='error' style="display:block;">Enter a message subject</p>
+						</cms:if>
+					</li>
+
+					<li>
+						<label class="contact-label" for="name">Message</label>
+						<cms:input type='textarea' name='message' id='message' required='1' rows='8' id="contact-message" class="contact-input"></cms:input>
+						<cms:if k_error_message>
+							<p id='message-error' class='error' style="display:block;">Enter a message</p>
+						</cms:if>
+					</li>
+
+					</ul>
+
+					<cms:if k_success >
+						<p id="mail-success" class="success" style="display:block;">Thank you, I'll get back to you soon.</p>
+						
+						<script type="text/javascript">
+							$(document).ready(function() {
+								$('.contact-input, .contact-label, #contact-submit').hide();
+							});
+						</script>
+
+						<cms:send_mail from=k_email_from to=k_email_to subject='Message from colinbrooks.us'>
+							Somebody sent you this:
+							<br><br>
+							<cms:show k_success />
+						</cms:send_mail>
+
+					</cms:if>
+
+					<input class="btn btn--hard" id="contact-submit" type="submit" value="Send message" name="submit" />
+
+				</cms:form>
+
+
 
 
 							</div>
@@ -446,5 +469,7 @@
 		<!-- End Footer -->
 
 
-	</body>
-	</html>
+</body>
+</html>
+
+<?php COUCH::invoke(); ?>
