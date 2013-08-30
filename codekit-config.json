@@ -2,6 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8317",
   "files" : {
+    "\/couch\/upload.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/upload.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/couch\/config.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -21,15 +30,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/eo-ck.js",
       "fileType" : 64
-    },
-    "\/couch\/upload.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/upload.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/css\/inuit.css\/objects\/_nav.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -163,14 +163,16 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/slimbox-ck.js",
       "fileType" : 64
     },
-    "\/couch\/addons\/relation\/relation.php" : {
+    "\/couch\/includes\/ckeditor\/plugins\/showblocks\/images\/block_pre.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/addons\/relation\/relation.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/showblocks\/images\/block_pre.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/showblocks\/images\/block_pre.png",
+      "initialSize" : 136,
+      "fileType" : 8192
     },
     "\/couch\/includes\/ckeditor\/ckeditor_php5.php" : {
       "ignoreWasSetByUser" : 0,
@@ -214,16 +216,14 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/smiley\/smiley-ck.js",
       "fileType" : 64
     },
-    "\/couch\/includes\/ckeditor\/plugins\/showblocks\/images\/block_pre.png" : {
+    "\/couch\/addons\/relation\/relation.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/showblocks\/images\/block_pre.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/showblocks\/images\/block_pre.png",
-      "initialSize" : 136,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/couch\/addons\/relation\/relation.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/couch\/includes\/fileuploader\/connector.php" : {
       "ignoreWasSetByUser" : 0,
@@ -269,6 +269,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/couch\/includes\/ckeditor\/skins\/kama\/editor.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/skins\/kama\/editor.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/uk.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -280,15 +289,15 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/uk-ck.js",
       "fileType" : 64
     },
-    "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/bg.js" : {
+    "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/vi.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/bg.js",
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/vi.js",
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/placeholder\/bg-ck.js",
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/placeholder\/vi-ck.js",
       "fileType" : 64
     },
     "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/dialogs\/a11yhelp.js" : {
@@ -302,27 +311,15 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/a11yhelp-ck.js",
       "fileType" : 64
     },
-    "\/css\/inuit.css\/objects\/_stats.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/inuit.css\/objects\/_stats.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_stats.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/vi.js" : {
+    "\/couch\/includes\/mootools-more-1.4.0.1.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/vi.js",
+      "inputAbbreviatedPath" : "\/couch\/includes\/mootools-more-1.4.0.1.js",
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/placeholder\/vi-ck.js",
+      "outputAbbreviatedPath" : "\/couch\/mootools-more-1.4.0.1-ck.js",
       "fileType" : 64
     },
     "\/css\/inuit.css\/objects\/_block-list.scss" : {
@@ -337,15 +334,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/couch\/includes\/mootools-more-1.4.0.1.js" : {
+    "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/bg.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/mootools-more-1.4.0.1.js",
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/bg.js",
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/mootools-more-1.4.0.1-ck.js",
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/placeholder\/bg-ck.js",
       "fileType" : 64
     },
     "\/couch\/includes\/ckeditor\/plugins\/flash\/images\/placeholder.png" : {
@@ -370,14 +367,17 @@
       "initialSize" : 413538,
       "fileType" : 4096
     },
-    "\/couch\/includes\/ckeditor\/skins\/kama\/editor.css" : {
+    "\/css\/inuit.css\/objects\/_stats.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/skins\/kama\/editor.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/css\/inuit.css\/objects\/_stats.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_stats.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/couch\/includes\/ckeditor\/plugins\/showblocks\/images\/block_h4.png" : {
       "ignoreWasSetByUser" : 0,
@@ -484,6 +484,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/plupload\/es-ck.js",
       "fileType" : 64
+    },
+    "\/img\/project\/old\/half-full.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/old\/half-full.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/old\/half-full.jpg",
+      "initialSize" : 230237,
+      "fileType" : 4096
     },
     "\/img\/sami.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -732,6 +743,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/project\/project-pw-mobile.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/project-pw-mobile.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/project-pw-mobile.jpg",
+      "initialSize" : 334370,
+      "fileType" : 4096
+    },
     "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/zh-cn.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -763,15 +785,6 @@
       "initialSize" : 127,
       "fileType" : 8192
     },
-    "\/css\/lightbox.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/lightbox.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/css\/inuit.css\/base\/_code.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -783,6 +796,15 @@
       "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_code.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/css\/lightbox.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/lightbox.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/inuit.css\/objects\/_flexbox.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -890,6 +912,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/liststyle\/liststyle-ck.js",
       "fileType" : 64
+    },
+    "\/img\/project\/old\/half-full-800.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/old\/half-full-800.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/old\/half-full-800.jpg",
+      "initialSize" : 143629,
+      "fileType" : 4096
     },
     "\/js\/dev\/parallax.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1062,15 +1095,6 @@
       "initialSize" : 192,
       "fileType" : 8192
     },
-    "\/couch\/addons\/nicedit\/nicedit.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/addons\/nicedit\/nicedit.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/img\/cb_1_777_200.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1081,6 +1105,15 @@
       "outputAbbreviatedPath" : "\/img\/cb_1_777_200.png",
       "initialSize" : 10526,
       "fileType" : 8192
+    },
+    "\/couch\/addons\/nicedit\/nicedit.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/addons\/nicedit\/nicedit.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/de.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1135,6 +1168,18 @@
       "initialSize" : 36378,
       "fileType" : 8192
     },
+    "\/css\/inuit.css\/base\/_lists.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/inuit.css\/base\/_lists.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_lists.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/couch\/includes\/ckeditor\/plugins\/specialchar\/lang\/eo.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1155,28 +1200,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/project\/half-full-800.jpg" : {
+    "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/gu.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/project\/half-full-800.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/project\/half-full-800.jpg",
-      "initialSize" : 143629,
-      "fileType" : 4096
-    },
-    "\/css\/inuit.css\/base\/_lists.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/inuit.css\/base\/_lists.scss",
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/gu.js",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_lists.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/gu-ck.js",
+      "fileType" : 64
     },
     "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/el.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1209,17 +1242,6 @@
       "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/gu.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/gu.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/gu-ck.js",
-      "fileType" : 64
     },
     "\/couch\/includes\/ckeditor\/plugins\/stylesheetparser\/plugin.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1330,17 +1352,6 @@
       "outputAbbreviatedPath" : "\/couch\/jquery.min-1.5.1-ck.js",
       "fileType" : 64
     },
-    "\/img\/project\/mobile-800.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/project\/mobile-800.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/project\/mobile-800.jpg",
-      "initialSize" : 201157,
-      "fileType" : 4096
-    },
     "\/img\/project\/project-localfoods-cart.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1401,12 +1412,12 @@
       "initialSize" : 14705495,
       "fileType" : 4096
     },
-    "\/couch\/gen_dump.php" : {
+    "\/couch\/addons\/repeatable\/repeatable.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/gen_dump.php",
+      "inputAbbreviatedPath" : "\/couch\/addons\/repeatable\/repeatable.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1421,12 +1432,12 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/cs-ck.js",
       "fileType" : 64
     },
-    "\/couch\/addons\/repeatable\/repeatable.php" : {
+    "\/couch\/gen_dump.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/addons\/repeatable\/repeatable.php",
+      "inputAbbreviatedPath" : "\/couch\/gen_dump.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1452,17 +1463,6 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/specialchar\/et-ck.js",
       "fileType" : 64
     },
-    "\/img\/close.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/close.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/close.png",
-      "initialSize" : 280,
-      "fileType" : 8192
-    },
     "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/fa.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1473,6 +1473,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/placeholder\/fa-ck.js",
       "fileType" : 64
+    },
+    "\/img\/close.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/close.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/close.png",
+      "initialSize" : 280,
+      "fileType" : 8192
     },
     "\/js\/dev\/custom.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1505,6 +1516,17 @@
       "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_grids.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/project\/old\/home-800.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/old\/home-800.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/old\/home-800.jpg",
+      "initialSize" : 133700,
+      "fileType" : 4096
     },
     "\/couch\/includes\/plupload\/jquery.plupload.queue\/img\/buttons-disabled.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1579,21 +1601,21 @@
       "outputAbbreviatedPath" : "\/js\/enquire-ck.js",
       "fileType" : 64
     },
-    "\/couch\/edit-folders.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/edit-folders.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/couch\/auth\/user.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/couch\/auth\/user.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/couch\/edit-folders.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/edit-folders.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1696,17 +1718,6 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/link\/anchor-ck.js",
       "fileType" : 64
     },
-    "\/img\/project\/cart-800.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/project\/cart-800.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/project\/cart-800.jpg",
-      "initialSize" : 84428,
-      "fileType" : 4096
-    },
     "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/pl.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1740,16 +1751,14 @@
       "outputAbbreviatedPath" : "\/js\/waypoints-ck.js",
       "fileType" : 64
     },
-    "\/img\/project\/project-localfoods-inventory.jpg" : {
+    "\/couch\/includes\/fileuploader\/phpcompat.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/project\/project-localfoods-inventory.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/project\/project-localfoods-inventory.jpg",
-      "initialSize" : 157249,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/couch\/includes\/fileuploader\/phpcompat.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/couch\/includes\/ckeditor\/plugins\/specialchar\/lang\/fi.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1762,14 +1771,27 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/specialchar\/fi-ck.js",
       "fileType" : 64
     },
-    "\/couch\/includes\/fileuploader\/phpcompat.php" : {
+    "\/img\/project\/old\/mobile-800.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/fileuploader\/phpcompat.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/project\/old\/mobile-800.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/old\/mobile-800.jpg",
+      "initialSize" : 201157,
+      "fileType" : 4096
+    },
+    "\/img\/project\/project-localfoods-inventory.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/project-localfoods-inventory.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/project-localfoods-inventory.jpg",
+      "initialSize" : 157249,
+      "fileType" : 4096
     },
     "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/en.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1863,6 +1885,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/img\/project\/DSC_5487.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/DSC_5487.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/DSC_5487.jpg",
+      "initialSize" : 879383,
+      "fileType" : 4096
+    },
     "\/couch\/includes\/ckeditor\/plugins\/wsc\/dialogs\/wsc.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1953,6 +1986,17 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/ug-ck.js",
       "fileType" : 64
     },
+    "\/img\/project\/project-pw-quadtych.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/project-pw-quadtych.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/project-pw-quadtych.jpg",
+      "initialSize" : 295473,
+      "fileType" : 4096
+    },
     "\/img\/caleb.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1973,15 +2017,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/tr.js" : {
+    "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/tr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/tr.js",
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/tr.js",
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/tr-ck.js",
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/tr-ck.js",
       "fileType" : 64
     },
     "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/fi.js" : {
@@ -2006,15 +2050,15 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/forms\/checkbox-ck.js",
       "fileType" : 64
     },
-    "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/tr.js" : {
+    "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/tr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/tr.js",
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/tr.js",
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/tr-ck.js",
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/tr-ck.js",
       "fileType" : 64
     },
     "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/pl.js" : {
@@ -2061,6 +2105,17 @@
       "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_images.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/project\/DSC_5478.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/DSC_5478.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/DSC_5478.jpg",
+      "initialSize" : 547481,
+      "fileType" : 4096
     },
     "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/eo.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2250,6 +2305,17 @@
       "initialSize" : 41705,
       "fileType" : 4096
     },
+    "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/no.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/no.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/no-ck.js",
+      "fileType" : 64
+    },
     "\/couch\/includes\/ckeditor\/plugins\/showblocks\/images\/block_h3.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2261,16 +2327,16 @@
       "initialSize" : 131,
       "fileType" : 8192
     },
-    "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/no.js" : {
+    "\/img\/project\/old\/full.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/no.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/no-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/project\/old\/full.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/old\/full.jpg",
+      "initialSize" : 307060,
+      "fileType" : 4096
     },
     "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/he.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2390,21 +2456,21 @@
       "initialSize" : 5600,
       "fileType" : 8192
     },
-    "\/couch\/search.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/search.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/couch\/includes\/plupload\/upload.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/couch\/includes\/plupload\/upload.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/couch\/search.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/search.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2648,17 +2714,6 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/el-ck.js",
       "fileType" : 64
     },
-    "\/img\/project\/add-800.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/project\/add-800.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/project\/add-800.jpg",
-      "initialSize" : 96579,
-      "fileType" : 4096
-    },
     "\/img\/spit_sunset.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2713,6 +2768,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/zh-cn-ck.js",
       "fileType" : 64
+    },
+    "\/img\/project\/project-pw-bed.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/project-pw-bed.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/project-pw-bed.jpg",
+      "initialSize" : 113782,
+      "fileType" : 4096
     },
     "\/css\/inuit.css\/generic\/_pull.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2785,17 +2851,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/smoothbox-ck.js",
       "fileType" : 64
-    },
-    "\/img\/project\/home-800.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/project\/home-800.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/project\/home-800.jpg",
-      "initialSize" : 133700,
-      "fileType" : 4096
     },
     "\/couch\/includes\/ckeditor\/plugins\/tabletools\/dialogs\/tableCell.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3014,17 +3069,6 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/specialchar\/ug-ck.js",
       "fileType" : 64
     },
-    "\/img\/project\/half-full.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/project\/half-full.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/project\/half-full.jpg",
-      "initialSize" : 230237,
-      "fileType" : 4096
-    },
     "\/img\/project\/project-rays-home.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3201,14 +3245,16 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/forms\/textarea-ck.js",
       "fileType" : 64
     },
-    "\/css\/style.css" : {
+    "\/img\/project\/DSC_5428.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/img\/project\/DSC_5428.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/DSC_5428.jpg",
+      "initialSize" : 618232,
+      "fileType" : 4096
     },
     "\/couch\/includes\/ckeditor\/plugins\/specialchar\/lang\/no.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3220,6 +3266,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/specialchar\/no-ck.js",
       "fileType" : 64
+    },
+    "\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/hr.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3537,17 +3592,6 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/skins\/skin-ck.js",
       "fileType" : 64
     },
-    "\/img\/arrows_black.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/arrows_black.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/arrows_black.png",
-      "initialSize" : 29180,
-      "fileType" : 8192
-    },
     "\/css\/style.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 0,
@@ -3559,6 +3603,17 @@
       "outputAbbreviatedPath" : "\/css\/style.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/arrows_black.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/arrows_black.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/arrows_black.png",
+      "initialSize" : 29180,
+      "fileType" : 8192
     },
     "\/couch\/includes\/ckeditor\/plugins\/uicolor\/yui\/assets\/hue_thumb.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3593,6 +3648,17 @@
       "initialSize" : 26685,
       "fileType" : 8192
     },
+    "\/img\/project\/old\/add-800.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/old\/add-800.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/old\/add-800.jpg",
+      "initialSize" : 96579,
+      "fileType" : 4096
+    },
     "\/css\/inuit.css\/_inuit.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3625,17 +3691,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/couch\/includes\/ckeditor\/plugins\/specialchar\/lang\/de.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/specialchar\/lang\/de.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/specialchar\/de-ck.js",
-      "fileType" : 64
-    },
     "\/couch\/includes\/ckeditor\/plugins\/about\/dialogs\/about.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3645,6 +3700,17 @@
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/about\/about-ck.js",
+      "fileType" : 64
+    },
+    "\/couch\/includes\/ckeditor\/plugins\/specialchar\/lang\/de.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/specialchar\/lang\/de.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/specialchar\/de-ck.js",
       "fileType" : 64
     },
     "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/ug.js" : {
@@ -3831,6 +3897,17 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/et-ck.js",
       "fileType" : 64
     },
+    "\/img\/project\/old\/cart-800.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/old\/cart-800.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/old\/cart-800.jpg",
+      "initialSize" : 84428,
+      "fileType" : 4096
+    },
     "\/js\/dev\/jquery-1.10.1.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -3841,6 +3918,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/jquery-1.10.1-ck.js",
       "fileType" : 64
+    },
+    "\/img\/project\/project-pw-home.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/project-pw-home.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/project-pw-home.jpg",
+      "initialSize" : 266041,
+      "fileType" : 4096
     },
     "\/js\/dev\/kinetics.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3907,26 +3995,6 @@
       "initialSize" : 2115,
       "fileType" : 8192
     },
-    "\/img\/hug.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/hug.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/hug.jpg",
-      "initialSize" : 978988,
-      "fileType" : 4096
-    },
-    "\/header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/fa.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3936,17 +4004,6 @@
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/fa-ck.js",
-      "fileType" : 64
-    },
-    "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/it.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/it.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/it-ck.js",
       "fileType" : 64
     },
     "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/cs.js" : {
@@ -3960,6 +4017,37 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/cs-ck.js",
       "fileType" : 64
     },
+    "\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/it.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/it.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/it-ck.js",
+      "fileType" : 64
+    },
+    "\/img\/hug.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/hug.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/hug.jpg",
+      "initialSize" : 978988,
+      "fileType" : 4096
+    },
     "\/couch\/includes\/plupload\/i18n\/da.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3971,15 +4059,6 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/plupload\/da-ck.js",
       "fileType" : 64
     },
-    "\/couch\/includes\/fileuploader\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/fileuploader\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/couch\/includes\/ckeditor\/plugins\/showblocks\/images\/block_h5.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3990,6 +4069,15 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/showblocks\/images\/block_h5.png",
       "initialSize" : 133,
       "fileType" : 8192
+    },
+    "\/couch\/includes\/fileuploader\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/includes\/fileuploader\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/bg.js" : {
       "ignoreWasSetByUser" : 0,
@@ -4024,17 +4112,16 @@
       "outputAbbreviatedPath" : "\/couch\/mootools-core-1.4.5-ck.js",
       "fileType" : 64
     },
-    "\/css\/inuit.css\/generic\/_shared.scss" : {
+    "\/couch\/includes\/ckeditor\/config.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/inuit.css\/generic\/_shared.scss",
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/config.js",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_shared.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/couch\/includes\/config-ck.js",
+      "fileType" : 64
     },
     "\/couch\/includes\/ckeditor\/plugins\/placeholder\/lang\/zh-cn.js" : {
       "ignoreWasSetByUser" : 0,
@@ -4047,16 +4134,17 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/placeholder\/zh-cn-ck.js",
       "fileType" : 64
     },
-    "\/couch\/includes\/ckeditor\/config.js" : {
+    "\/css\/inuit.css\/generic\/_shared.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/config.js",
+      "inputAbbreviatedPath" : "\/css\/inuit.css\/generic\/_shared.scss",
       "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/config-ck.js",
-      "fileType" : 64
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_shared.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/couch\/includes\/ckeditor\/plugins\/specialchar\/lang\/it.js" : {
       "ignoreWasSetByUser" : 0,
@@ -4091,6 +4179,17 @@
       "initialSize" : 2105,
       "fileType" : 8192
     },
+    "\/img\/project\/project-pw-exterior.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/project-pw-exterior.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/project-pw-exterior.jpg",
+      "initialSize" : 410465,
+      "fileType" : 4096
+    },
     "\/img\/square-hug.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4124,17 +4223,6 @@
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/de-ck.js",
       "fileType" : 64
     },
-    "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/no.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/no.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/no-ck.js",
-      "fileType" : 64
-    },
     "\/css\/inuit.css\/generic\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -4157,6 +4245,17 @@
       "outputAbbreviatedPath" : "\/img\/photography\/2.jpg",
       "initialSize" : 113870,
       "fileType" : 4096
+    },
+    "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/no.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/lang\/no.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/uicolor\/no-ck.js",
+      "fileType" : 64
     },
     "\/couch\/includes\/plupload\/i18n\/de.js" : {
       "ignoreWasSetByUser" : 0,
@@ -4191,17 +4290,6 @@
       "initialSize" : 200425,
       "fileType" : 4096
     },
-    "\/img\/square-sami.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/square-sami.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/square-sami.jpg",
-      "initialSize" : 13107,
-      "fileType" : 4096
-    },
     "\/couch\/edit-drafts.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4222,6 +4310,17 @@
       "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_helper.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/square-sami.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/square-sami.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/square-sami.jpg",
+      "initialSize" : 13107,
+      "fileType" : 4096
     },
     "\/css\/inuit.css\/generic\/_push.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -4277,17 +4376,6 @@
       "initialSize" : 16521,
       "fileType" : 4096
     },
-    "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/en.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/en.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/en-ck.js",
-      "fileType" : 64
-    },
     "\/couch\/includes\/plupload\/i18n\/sr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4297,6 +4385,17 @@
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/plupload\/sr-ck.js",
+      "fileType" : 64
+    },
+    "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/en.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/en.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/en-ck.js",
       "fileType" : 64
     },
     "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/lang\/vi.js" : {
@@ -4605,6 +4704,17 @@
       "initialSize" : 1491420,
       "fileType" : 4096
     },
+    "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/tr.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/tr.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/tr-ck.js",
+      "fileType" : 64
+    },
     "\/css\/inuit.css\/generic\/_debug.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -4616,17 +4726,6 @@
       "outputAbbreviatedPath" : "\/css\/inuit.css\/css\/_debug.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/tr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/lang\/tr.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/tr-ck.js",
-      "fileType" : 64
     },
     "\/couch\/install.php" : {
       "ignoreWasSetByUser" : 0,
@@ -4667,17 +4766,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/a11yhelp\/it-ck.js",
       "fileType" : 64
-    },
-    "\/img\/project\/full.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/project\/full.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/project\/full.jpg",
-      "initialSize" : 307060,
-      "fileType" : 4096
     },
     "\/img\/fisher.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -4823,6 +4911,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/couch\/includes\/ckeditor\/plugins\/devtools\/hr-ck.js",
       "fileType" : 64
+    },
+    "\/img\/project\/DSC_5484.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/project\/DSC_5484.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/project\/DSC_5484.jpg",
+      "initialSize" : 823653,
+      "fileType" : 4096
     },
     "\/img\/frame.png" : {
       "ignoreWasSetByUser" : 0,

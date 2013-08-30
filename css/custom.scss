@@ -84,6 +84,13 @@ section {
 			text-transform: uppercase;
 			background-color: white;
 			font-family: $header-font;
+
+			-webkit-transition: all .15s ease-in-out;
+			-moz-transition: all .15s ease-in-out;
+			-ms-transition: all .15s ease-in-out;
+			-o-transition: all .15s ease-in-out;
+			transition: all .15s ease-in-out;
+
 		}
 
 		a:hover {
@@ -183,6 +190,12 @@ section {
 	margin-right: -4px;
 	padding: 0;
 	width: 25%;
+
+	-webkit-transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-ms-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
 }
 
 .project-image:hover {
@@ -207,7 +220,13 @@ section {
 	background-position: right bottom;
 	background-size: cover;
 	background-image: url(../img/caleb.jpg);
+	
+	-webkit-transition: background 1s ease-in-out;
+	-moz-transition: background 1s ease-in-out;
+	-ms-transition: background 1s ease-in-out;
+	-o-transition: background 1s ease-in-out;
 	transition: background 1s ease-in-out;
+
 	transition-delay: 0.25s;
 	padding-top: 3em;
 	padding-bottom: 6em;
@@ -238,6 +257,10 @@ section {
 	background-color:rgba(0,0,0,.85);
 	// background-color:rgba(255,255,255,.85);
 	color: white;
+}
+
+#flickr-link {
+	color: $friendly-blue;
 }
 
 // End photography styling
@@ -289,25 +312,17 @@ section {
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 
+	-webkit-transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-ms-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
+
 }
 
-// .contact-success, .contact-failure {
-// 	text-align: center;
-// 	margin: 0;
-// 	padding: 1em;
-// 	background-color: $dark-gray;
-// 	color: white;
-
-// 	a {
-// 		color: white;
-// 		text-decoration: none;
-// 	}
-
-// 	a:hover {
-// 		text-decoration: underline;
-// 	}
-
-// }
+#contact-submit:hover {
+	background-color: #04819E;
+}
 
 .error {
 	color: #ce5438;
@@ -325,10 +340,6 @@ section {
 	font-family: 'Raleway';
 	margin-top: 2em;
 	font-size: 2em;
-}
-
-#contact-submit:hover {
-	background-color: #04819E;
 }
 
 input, textarea {

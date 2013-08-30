@@ -125,87 +125,10 @@
 			<div class="unit-spacing">
 
 				<h1 id="projects-header" class="clean-header">Projects & Experience</h1>
-				<div class="grid__item">
-					<!-- <p>
-						<em class="quote">
-
-							"No sensible decision can be made any longer
-							"without taking into account not only the world as
-							"it is, but the world as it will be." - Isaac
-							"Asimov
-						
-						</em>
-					</p> -->		
-					
-
-				</div><div class="grid__item project">
-<!-- <a href="img/project/project-localfoods-inventory.jpg" data-lightbox="roadtrip">image #2</a> -->
-				<div class="project-image-wrapper">
-					<a href="img/project/project-localfoods-inventory.jpg" 
-						data-lightbox="localfoods" 
-						title="A major goal of the project was to make viewing & managing inventory much more pleasant, and have a greater focus on images.">
-						<img src="img/project/project-localfoods-inventory.jpg" class="project-image">
-					</a>
-					<a href="img/project/project-localfoods-cart.jpg" 
-						data-lightbox="localfoods" 
-						title="By using modals instead of links whenever possible, users would no longer lose their place in lists and be bumped to another page.">
-						<img src="img/project/project-localfoods-cart.jpg" class="project-image" data-lightbox="localfoods" title="blah">
-					</a>
-					<a href="img/project/project-localfoods-stock.jpg" 
-						data-lightbox="localfoods" 
-						title="To make the site more personal and colorful, I took new photos for headers and other sections.">
-						<img src="img/project/project-localfoods-stock.jpg" class="project-image">
-					</a>
-					<a href="img/project/project-localfoods-mobile.jpg" 
-						data-lightbox="localfoods" 
-						title="I made sure that all major aspects of the site were mobile and tablet friendly, and fully responsive.">
-						<img src="img/project/project-localfoods-mobile.jpg" class="project-image">
-					</a>
-				</div>
-
-
-				<h3 class="clean-subheader">Grinnell Localfoods Coop</h3>
-				<h4><em>User Interaction Designer, Fall 2012 - Spring 2013</em></h4>
 				
-				<section class="two-column text-cols--2">
-					<p>
+				<div class="grid__item project">
 
-						The Grinnell Localfoods Coop needed a new site, and new
-						functionality. For producers, managing their inventory on
-						the old site was a mess, and for users, buying was an
-						exercize in wading through unorganized lists of only semi-
-						relevant text, and lacking payment options. Starting from
-						scratch a small team of us set out to build something
-						better, working with Localfoods coordinators all along the
-						way to make sure we were adhering to their needs.
-
-					</p>
-					<p>
-
-						The primary goals of the project were to along producers
-						to more effectively manage their goods, and for users to
-						be able to pay for their purchases online. As the UI guy,
-						I was nominally in charge of all front-facing aspects of
-						the site. This included the layouts of pages, navigation,
-						graphics and photography, cross browser/platform testing,
-						user testing, and making the whole thing responsive for
-						devices of all sizes.
-
-					</p>
-					<p>
-
-						It's all currently being prepped for deployment, but
-						you can visit the shakey development server
-						temporarily <a
-						href="http://fulkerson.cs.grinnell.edu">here</a>.
-
-					</p>
-
-				</section>
-
-		</div><div class="grid__item project">
-
-		<div class="project-image-wrapper">
+						<div class="project-image-wrapper">
 			<a href="img/project/project-rays-home.jpg" 
 						data-lightbox="rays" 
 						title="Photos relevant to RAYS now feature prominantly on the home page to help build more emotional connections with visitors.">
@@ -228,8 +151,8 @@
 			</a>
 		</div>
 
-		<h3 class="clean-subheader">Renton Area Youth & Family Services [Current]</h3>
-		<h4><em>Web Designer, May 2013 - Now</em></h4>
+		<h3 class="clean-subheader">Renton Area Youth & Family Services</h3>
+		<h4><em>Web Designer, May 2013 - September 2013</em></h4>
 
 		<section class="two-column text-cols--2">
 		
@@ -267,6 +190,111 @@
 		</p>
 
 	</section>
+
+
+		</div><div class="grid__item project">
+
+				<div class="project-image-wrapper">
+					<a href="img/project/project-localfoods-inventory.jpg" 
+						data-lightbox="localfoods" 
+						title="A major goal of the project was to make viewing & managing inventory much more pleasant, and have a greater focus on images.">
+						<img src="img/project/project-localfoods-inventory.jpg" class="project-image">
+					</a>
+					<a href="img/project/project-localfoods-cart.jpg" 
+						data-lightbox="localfoods" 
+						title="By using modals instead of links whenever possible, users would no longer lose their place in lists and be bumped to another page.">
+						<img src="img/project/project-localfoods-cart.jpg" class="project-image" data-lightbox="localfoods" title="blah">
+					</a>
+					<a href="img/project/project-localfoods-stock.jpg" 
+						data-lightbox="localfoods" 
+						title="To make the site more personal and colorful, I took new photos for headers and other sections.">
+						<img src="img/project/project-localfoods-stock.jpg" class="project-image">
+					</a>
+					<a href="img/project/project-localfoods-mobile.jpg" 
+						data-lightbox="localfoods" 
+						title="I made sure that all major aspects of the site were mobile and tablet friendly, and fully responsive.">
+						<img src="img/project/project-localfoods-mobile.jpg" class="project-image">
+					</a>
+				</div>
+
+
+				<h3 class="clean-subheader">Grinnell Localfoods Coop</h3>
+				<h4><em>User Interaction Designer, Fall 2012 - Spring 2013</em></h4>
+				
+				<section class="two-column text-cols--2">
+					<p>
+
+						The Grinnell Localfoods Coop needed a new site, and new
+						functionality. For producers, managing their inventory on
+						the old site was a mess, and for users, buying was an
+						exercise in wading through unorganized lists of only semi-
+						relevant text, and lacking payment options. Starting from
+						scratch a small team of us set out to build something
+						better, working with Localfoods coordinators all along the
+						way to make sure we were adhering to their needs.
+
+					</p>
+					<p>
+
+						The primary goals of the project were to allow producers
+						to more effectively manage their goods, and for users to
+						be able to pay for their purchases online. As the UI guy,
+						I was nominally in charge of all front-facing aspects of
+						the site. This included the layouts of pages, navigation,
+						graphics and photography, cross browser/platform testing,
+						user testing, and making the whole thing responsive for
+						devices of all sizes.
+
+					</p>
+					<p>
+
+						It's all currently being prepped for deployment, but
+						you can visit the shakey development server
+						temporarily <a
+						href="http://fulkerson.cs.grinnell.edu">here</a>.
+
+					</p>
+
+				</section>
+	
+
+	</div><div class="grid__item project">
+
+	<div class="project-image-wrapper">
+			<a href="img/project/project-pw-home.jpg" 
+						data-lightbox="pw" 
+						title="Photos relevant to RAYS now feature prominantly on the home page to help build more emotional connections with visitors.">
+				<img src="img/project/project-pw-home.jpg" class="project-image">
+			</a>
+			<a href="img/project/project-pw-exterior.jpg" 
+						data-lightbox="pw" 
+						title="I photographed RAYS events to fill in documentation gaps, and give them (and me) more high-quality images to work with.">
+				<img src="img/project/project-pw-exterior.jpg" class="project-image">
+			</a>
+			<a href="img/project/project-pw-quadtych.jpg" 
+						data-lightbox="pw" 
+						title="On the old site there were no staff photos or bios, so I took new headshots on location for those who needed them.">
+				<img src="img/project/project-pw-quadtych.jpg" class="project-image">
+			</a>
+			<a href="img/project/project-pw-mobile.jpg" 
+						data-lightbox="pw" 
+						title="A major goal for the project was to balance having more information available, with keeping it from being overwhelming. Expandable sections were one solution, and pull quotes another.">
+				<img src="img/project/project-pw-mobile.jpg" class="project-image">
+			</a>
+		</div>
+
+	<h3 class="clean-subheader">Point White Guest House</h3>
+		<h4><em>Web Designer, August 2013 - Now</em></h4>
+
+		<section class="two-column text-cols--2">
+		
+		<p>
+lorem ipem
+
+		</p>
+
+		</section>
+
 
 	</div><div class="grid__item project">
 
@@ -349,8 +377,7 @@
 				<p>
 
 					If you want to see what I've done lately or everything
-					larger, my <a
-					href="http://www.flickr.com/pandadumpster">Flickr</a> has a lot.
+					larger, my <a id="flickr-link" href="http://www.flickr.com/pandadumpster">Flickr</a> has a lot.
 
 				</p>
 

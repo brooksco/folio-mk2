@@ -3314,7 +3314,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: .9em;
     text-transform: uppercase;
     background-color: white;
-    font-family: "Raleway"; }
+    font-family: "Raleway";
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out; }
   #navbar li a:hover, #scroll-navbar li a:hover {
     background-color: #eeeeee; }
 
@@ -3376,7 +3381,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   margin-right: -4px;
   padding: 0;
-  width: 25%; }
+  width: 25%;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -ms-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out; }
 
 .project-image:hover {
   box-shadow: 0 0 10px 1px #38b2ce; }
@@ -3392,6 +3402,10 @@ h1, h2, h3, h4, h5, h6 {
   background-position: right bottom;
   background-size: cover;
   background-image: url(../img/caleb.jpg);
+  -webkit-transition: background 1s ease-in-out;
+  -moz-transition: background 1s ease-in-out;
+  -ms-transition: background 1s ease-in-out;
+  -o-transition: background 1s ease-in-out;
   transition: background 1s ease-in-out;
   transition-delay: 0.25s;
   padding-top: 3em;
@@ -3412,6 +3426,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 1.5em;
   background-color: rgba(0, 0, 0, 0.85);
   color: white; }
+
+#flickr-link {
+  color: #38b2ce; }
 
 #contact-content {
   text-align: center; }
@@ -3445,7 +3462,15 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   margin-top: 1.5em;
   padding-left: 1.5em;
-  padding-right: 1.5em; }
+  padding-right: 1.5em;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -ms-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out; }
+
+#contact-submit:hover {
+  background-color: #04819E; }
 
 .error {
   color: #ce5438;
@@ -3460,9 +3485,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway';
   margin-top: 2em;
   font-size: 2em; }
-
-#contact-submit:hover {
-  background-color: #04819E; }
 
 input, textarea {
   border: 0px solid #eeeeee;
