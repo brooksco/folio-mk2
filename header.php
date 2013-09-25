@@ -1,35 +1,3 @@
-<script type="text/javascript">
-
-// Once the page has loaded...
-$(document).ready(function() {
-
-	// Setup the local scrolling effect, relies on jQuery ScrollTo
-	$('#main-header, #scroll-main-header').localScroll({duration:800, offset: -50});
-
-	// Check if the current screen is greater than 480px
-	enquire.register("screen and (min-width:481px)", {
-
-		// If it is, fade in the fixed navbar.
-		// If it isn't, fade it out if it's there.
-		match : function() {
-
-			$('#me-content').waypoint(function(direction) {
-				if(direction == 'down') {
-					$('#scroll-header').fadeIn();
-				} else {
-					$('#scroll-header').fadeOut();
-				}
-
-			}, { offset: 150 });
-
-    },     // REQUIRED
-
-}).listen();
-
-
-}); // End ready
-</script>
-
 <!-- Setup the grid -->
 <div class="grid">
 
@@ -46,7 +14,14 @@ $(document).ready(function() {
 
 		<!-- Main navbar -->
 		<nav id="navbar" class="nav  nav--block nav--banner">
-			<li><a href="#anchor-two">Projects</a></li>
+			<li>
+				<a href="#anchor-two">Projects</a>
+				<ul>
+					<li><a href="#anchor-two">Renton Area Youth & Family Services</a></li>
+					<li><a href="#project-anchor-one">Grinnell Localfoods Coop</a></li>
+					<li><a href="#project-anchor-two">Point White Guest House</a></li>
+       			</ul>
+			</li>
 			<li><a href="#anchor-three">Photography</a></li>
 			<li><a href="#anchor-four">Contact</a></li>
 		</nav>
@@ -77,7 +52,13 @@ $(document).ready(function() {
 			<!-- Scrolling navbar links, now including the about me section -->
 			<nav id="scroll-navbar" class="nav  nav--block nav--banner">
 				<li><a href="#anchor-one">About</a></li>
-				<li><a href="#anchor-two">Projects</a></li>
+				<li><a href="#anchor-two">Projects</a>
+					<ul>
+						<li><a href="#anchor-two">Renton Area Youth & Family Services</a></li>
+						<li><a href="#project-anchor-one">Grinnell Localfoods Coop</a></li>
+						<li><a href="#project-anchor-two">Point White Guest House</a></li>
+       				</ul>
+				</li>
 				<li><a href="#anchor-three">Photography</a></li>
 				<li><a href="#anchor-four">Contact</a></li>
 			</nav>
@@ -89,4 +70,4 @@ $(document).ready(function() {
 </div>
 
 </div>
-<!-- End the scrolling header -->
+<!-- End the scrolling header

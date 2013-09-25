@@ -20,35 +20,6 @@
 	<?php include 'header.php'; ?>
 	<!-- End Header -->
 
-<!-- 
-	<?php
-	$name = $_POST['name'];
-	$email = $_POST['email'];
-	$message = $_POST['message'];
-	$from = 'info@colinbrooks.us'; 
-	$to = 'colinbooks@gmail.com'; 
-	$subject = 'Hello';
-	$human = $_POST['human'];
-
-	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
-
-	if ($_POST['submit']) {
-		if ($name != '' && $email != '') {
-			if ($human == '4') {				 
-				if (mail ($to, $subject, $body, $from)) { 
-					echo '<p class="contact-success">Your message has been sent!</p>';
-				} else { 
-					echo '<p class="contact-failure"><a href="#anchor-four">Something went wrong, go back and try again!</a></p>'; 
-				} 
-			} else if ($_POST['submit'] && $human != '7') {
-				echo '<p class="contact-failure"><a href="#anchor-four">You answered the anti-spam question incorrectly!</a></p>';
-			}
-		} else {
-			echo '<p class="contact-failure"><a href="#anchor-four">You need to fill in all required fields!!</a></p>';
-		}
-	}
-	?>
- -->
 
 <!-- Hero unit, with anchor point zero -->
 <section name="anchor-zero" id="hero-unit">
@@ -89,22 +60,20 @@
 					<!-- class="text-cols--2" -->
 					<p>
 						
-						I'm originally from Seattle, WA, and on the verge of
-						moving to Wellington, NZ for an indeterminate amout of
-						time. I just graduated this May from Grinnell College
-						with a degree in General Science: Computer Science,
-						and a concentration in Neuroscience. I've spent my
-						summers working with at-risk youth, doing art in the
-						park with kids in Iowa, and building websites for
-						community non-profits.
+						I'm originally from Seattle, WA, and just moved to
+						Wellington, New Zealand for an indeterminate amout of time. I
+						graduated in May from Grinnell College with a
+						degree in General Science: Computer Science, and a
+						concentration in Neuroscience. I've spent my summers
+						working with at-risk youth, doing art in the park with
+						kids in Iowa, and building websites for community non-
+						profits.
 
 					</p>
 
 					<p>
 
-						I like photography, working with kids, being outside,
-						really cold water, and trying
-						to make things I don't know how to make.
+						Basically, I like a lot of different things.
 
 					</p>
 
@@ -185,14 +154,14 @@
 
 		<p>
 			Check it out at 
-			 <a href="http://rays.org">rays.org</a>.
-
+			 <a href="http://rays.org" target="_blank">rays.org</a>.
 		</p>
 
 	</section>
 
-
-		</div><div class="grid__item project">
+		<span name="project-anchor-one"></span>
+		
+		</div><div  class="grid__item project">
 
 				<div class="project-image-wrapper">
 					<a href="img/project/project-localfoods-inventory.jpg" 
@@ -251,50 +220,73 @@
 						It's all currently being prepped for deployment, but
 						you can visit the shakey development server
 						temporarily <a
-						href="http://fulkerson.cs.grinnell.edu">here</a>.
+						href="http://fulkerson.cs.grinnell.edu" target="_blank">here</a>.
 
 					</p>
 
 				</section>
 	
+	<span name="project-anchor-two"></span>
 
 	</div><div class="grid__item project">
 
 	<div class="project-image-wrapper">
 			<a href="img/project/project-pw-home.jpg" 
 						data-lightbox="pw" 
-						title="Photos relevant to RAYS now feature prominantly on the home page to help build more emotional connections with visitors.">
+						title="A two-paned design enables simple, clean navigation, and allows for large prominent images without scrolling.">
 				<img src="img/project/project-pw-home.jpg" class="project-image">
 			</a>
 			<a href="img/project/project-pw-exterior.jpg" 
 						data-lightbox="pw" 
-						title="I photographed RAYS events to fill in documentation gaps, and give them (and me) more high-quality images to work with.">
+						title="I carefully photographed the guest house inside and out, so as to best promote the space. This included climbing a nearby tree, and using that top step of the ladder you're not supposed to.">
 				<img src="img/project/project-pw-exterior.jpg" class="project-image">
 			</a>
 			<a href="img/project/project-pw-quadtych.jpg" 
 						data-lightbox="pw" 
-						title="On the old site there were no staff photos or bios, so I took new headshots on location for those who needed them.">
+						title="While photographing the cottage, I tried to get across a sense of the friendly nature of the place, and the beautiful environment just outside the door.">
 				<img src="img/project/project-pw-quadtych.jpg" class="project-image">
 			</a>
 			<a href="img/project/project-pw-mobile.jpg" 
 						data-lightbox="pw" 
-						title="A major goal for the project was to balance having more information available, with keeping it from being overwhelming. Expandable sections were one solution, and pull quotes another.">
+						title="As with past projects, making the site mobile-friendly was a must. This included particular attention to making sure images loaded as fast as possible.">
 				<img src="img/project/project-pw-mobile.jpg" class="project-image">
 			</a>
 		</div>
 
 	<h3 class="clean-subheader">Point White Guest House</h3>
-		<h4><em>Web Designer, August 2013 - Now</em></h4>
+		<h4><em>Web Designer, August 2013</em></h4>
 
 		<section class="two-column text-cols--2">
 		
 		<p>
-lorem ipem
+
+			What do you do with a guest house? Rent it out. To this end, the
+			owners of this particular guest house on Bainbridge Island wanted
+			a website which would allow them to promote their property, and
+			offer an convenient solution for online booking and payment. The
+			site needed to be aesthetically and organizationally inline with
+			the idea of a modern island cottage, while emphasizing its idyllic setting.
 
 		</p>
 
-		</section>
+		<p>
 
+			Part of the project included photographing the interior and
+			exterior of the guest house. Good imagery was identified as
+			extremely important to attracting new guests, and so much of my
+			time was spent carefully documenting the space and editing the
+			resulting photos. Additionally, the site was setup with WordPress on the backend
+			to enable the owners to easily add to these images over time (alongside
+			being able to add other new content, like guest comments and updated activity lists).
+
+		</p>
+
+		<p>
+			Check it out at 
+			 <a href="http://pointwhiteguesthouse.com" target="_blank">pointwhiteguesthouse.com</a>.
+		</p>
+
+		</section>
 
 	</div><div class="grid__item project">
 
@@ -377,10 +369,12 @@ lorem ipem
 				<p>
 
 					If you want to see what I've done lately or everything
-					larger, my <a id="flickr-link" href="http://www.flickr.com/pandadumpster">Flickr</a> has a lot.
+					larger, my Flickr has it.
 
 				</p>
-
+				
+				<a href="http://www.flickr.com/pandadumpster" target="_blank" id="flickr-link">Flickr</a>
+				
 			</div>
 		</div>
 	</div>
@@ -404,8 +398,11 @@ lorem ipem
 						<p id="contact-text">
 
 							Email me, call me, mail me stuff...whatever floats
-							your boat.<br><br>9806
-							43rd PL NE, Seattle WA, 98115. 206-999-3131.
+							your boat.
+							<br><br>
+							<del>9806 43rd PL NE, Seattle WA, 98115. 206-999-3131.</del>
+							<br>
+							95B Upland Road, Kelburn, Wellington 6012. 022-353-4477.
 
 						</p>
 
@@ -480,12 +477,6 @@ lorem ipem
 			</div>
 			<!-- End of contact form, and anchor four -->
 		</section>
-
-
-
-
-
-
 
 
 
