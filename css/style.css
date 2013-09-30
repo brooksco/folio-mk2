@@ -3373,7 +3373,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   right: 0;
   background-color: white;
-  background-color: rgba(255, 255, 255, 0.97); }
+  background-color: rgba(255, 255, 255, 0.95); }
   #scroll-header li a {
     background: transparent; }
   #scroll-header li ul li a {
@@ -3432,7 +3432,7 @@ h1, h2, h3, h4, h5, h6 {
 #photography-unit {
   background-position: right bottom;
   background-size: cover;
-  background-image: url(../img/caleb.jpg);
+  background-image: url(../img/trees.jpg);
   -webkit-transition: background 1s ease-in-out;
   -moz-transition: background 1s ease-in-out;
   -ms-transition: background 1s ease-in-out;
@@ -3512,6 +3512,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1.5em;
   padding-left: 1.5em;
   padding-right: 1.5em;
+  line-height: normal;
+  padding-top: 1em;
+  padding-bottom: 1em;
   -webkit-transition: all .15s ease-in-out;
   -moz-transition: all .15s ease-in-out;
   -ms-transition: all .15s ease-in-out;

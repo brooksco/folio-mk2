@@ -342,7 +342,12 @@
 				<img src="img/square-iowa.jpg" class="photo-thumb" data-photo="iowa.jpg">
 				<img src="img/square-obama.jpg" class="photo-thumb" data-photo="obama.jpg">
 				<!-- <img src="img/square-hug.jpg" class="photo-thumb" data-photo="hug.jpg"> -->
-				<!-- <img src="img/square-byeowa.jpg" class="photo-thumb" data-photo="byeowa.jpg"> -->
+				<img src="img/square-seattle.jpg" class="photo-thumb" data-photo="seattle.jpg">
+				<img src="img/square-byeowa.jpg" class="photo-thumb" data-photo="byeowa.jpg">
+				<img src="img/square-mikey.jpg" class="photo-thumb" data-photo="mikey.jpg">
+				<img src="img/square-up.jpg" class="photo-thumb" data-photo="up.jpg">
+				<img src="img/square-katie.jpg" class="photo-thumb" data-photo="katie.jpg">
+				<img src="img/square-train.jpg" class="photo-thumb" data-photo="train.jpg">
 				
 				<p>
 
