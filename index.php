@@ -29,7 +29,8 @@
 		<div class="grid__item one-third palm-one-whole">
 		</div><div class="grid__item two-thirds palm-one-whole">
 		<p id="hero-text">
-			My name is Colin Brooks, and I like to make things.
+			<!-- My name is Colin Brooks, and I like to make things. -->
+			Meeting in the middle between web and photo.
 		</p>
 	</div>
 </div>
@@ -48,7 +49,7 @@
 				<div class="grid__item one-quarter">
 
 					<div id="me-image">
-						<img src="img/swirl_arrow_400.jpg" class="img--left">
+						<img src="img/newspaper.jpg" class="img--left">
 					</div>
 
 				</div><div class="grid__item three-quarters">
@@ -60,8 +61,7 @@
 					<!-- class="text-cols--2" -->
 					<p>
 						
-						I'm originally from Seattle, WA, and just moved to
-						Wellington, New Zealand for an indeterminate amout of time. I
+						I'm originally from Seattle, WA, and just moved back from Wellington, New Zealand. I
 						graduated in May from Grinnell College with a
 						degree in General Science: Computer Science, and a
 						concentration in Neuroscience. I've spent my summers
@@ -73,7 +73,10 @@
 
 					<p>
 
-						Basically, I like a lot of different things.
+						I like a lot of different things, so my approach
+						trends towards inclusion. With the natural
+						relationship between web and photography, I think it's
+						good to have a strong working knowledge of both.
 
 					</p>
 
@@ -159,7 +162,69 @@
 
 	</section>
 
-		<span name="project-anchor-one"></span>
+	<span name="project-anchor-one"></span>
+
+	</div><div class="grid__item project">
+
+	<div class="project-image-wrapper">
+			<a href="img/project/project-pw-home.jpg" 
+						data-lightbox="pw" 
+						title="A two-paned design enables simple, clean navigation, and allows for large prominent images without scrolling.">
+				<img src="img/project/project-pw-home.jpg" class="project-image">
+			</a>
+			<a href="img/project/project-pw-exterior.jpg" 
+						data-lightbox="pw" 
+						title="I carefully photographed the guest house inside and out, so as to best promote the space. This included climbing a nearby tree, and using that top step of the ladder you're not supposed to.">
+				<img src="img/project/project-pw-exterior.jpg" class="project-image">
+			</a>
+			<a href="img/project/project-pw-quadtych.jpg" 
+						data-lightbox="pw" 
+						title="While photographing the cottage, I tried to get across a sense of the friendly nature of the place, and the beautiful environment just outside the door.">
+				<img src="img/project/project-pw-quadtych.jpg" class="project-image">
+			</a>
+			<a href="img/project/project-pw-mobile.jpg" 
+						data-lightbox="pw" 
+						title="As with past projects, making the site mobile-friendly was a must. This included particular attention to making sure images loaded as fast as possible.">
+				<img src="img/project/project-pw-mobile.jpg" class="project-image">
+			</a>
+		</div>
+
+	<h3 class="clean-subheader">Point White Guest House</h3>
+		<h4><em>Web Designer, August 2013</em></h4>
+
+		<section class="two-column text-cols--2">
+		
+		<p>
+
+			What do you do with a guest house? Rent it out. To this end, the
+			owners of this particular guest house on Bainbridge Island wanted
+			a website which would allow them to promote their property, and
+			offer an convenient solution for online booking and payment. The
+			site needed to be aesthetically and organizationally inline with
+			the idea of a modern island cottage, while emphasizing its idyllic setting.
+
+		</p>
+
+		<p>
+
+			Part of the project included photographing the interior and
+			exterior of the guest house. Good imagery was identified as
+			extremely important to attracting new guests, and so much of my
+			time was spent carefully documenting the space and editing the
+			resulting photos. Additionally, the site was setup with WordPress on the backend
+			to enable the owners to easily add to these images over time (alongside
+			being able to add other new content, like guest comments and updated activity lists).
+
+		</p>
+
+		<p>
+			Check it out at 
+			 <a href="http://pointwhiteguesthouse.com" target="_blank">pointwhiteguesthouse.com</a>.
+		</p>
+
+		</section>
+
+		<span name="project-anchor-two"></span>
 		
 		</div><div  class="grid__item project">
 
@@ -226,67 +291,7 @@
 
 				</section>
 	
-	<span name="project-anchor-two"></span>
-
-	</div><div class="grid__item project">
-
-	<div class="project-image-wrapper">
-			<a href="img/project/project-pw-home.jpg" 
-						data-lightbox="pw" 
-						title="A two-paned design enables simple, clean navigation, and allows for large prominent images without scrolling.">
-				<img src="img/project/project-pw-home.jpg" class="project-image">
-			</a>
-			<a href="img/project/project-pw-exterior.jpg" 
-						data-lightbox="pw" 
-						title="I carefully photographed the guest house inside and out, so as to best promote the space. This included climbing a nearby tree, and using that top step of the ladder you're not supposed to.">
-				<img src="img/project/project-pw-exterior.jpg" class="project-image">
-			</a>
-			<a href="img/project/project-pw-quadtych.jpg" 
-						data-lightbox="pw" 
-						title="While photographing the cottage, I tried to get across a sense of the friendly nature of the place, and the beautiful environment just outside the door.">
-				<img src="img/project/project-pw-quadtych.jpg" class="project-image">
-			</a>
-			<a href="img/project/project-pw-mobile.jpg" 
-						data-lightbox="pw" 
-						title="As with past projects, making the site mobile-friendly was a must. This included particular attention to making sure images loaded as fast as possible.">
-				<img src="img/project/project-pw-mobile.jpg" class="project-image">
-			</a>
-		</div>
-
-	<h3 class="clean-subheader">Point White Guest House</h3>
-		<h4><em>Web Designer, August 2013</em></h4>
-
-		<section class="two-column text-cols--2">
-		
-		<p>
-
-			What do you do with a guest house? Rent it out. To this end, the
-			owners of this particular guest house on Bainbridge Island wanted
-			a website which would allow them to promote their property, and
-			offer an convenient solution for online booking and payment. The
-			site needed to be aesthetically and organizationally inline with
-			the idea of a modern island cottage, while emphasizing its idyllic setting.
-
-		</p>
-
-		<p>
-
-			Part of the project included photographing the interior and
-			exterior of the guest house. Good imagery was identified as
-			extremely important to attracting new guests, and so much of my
-			time was spent carefully documenting the space and editing the
-			resulting photos. Additionally, the site was setup with WordPress on the backend
-			to enable the owners to easily add to these images over time (alongside
-			being able to add other new content, like guest comments and updated activity lists).
-
-		</p>
-
-		<p>
-			Check it out at 
-			 <a href="http://pointwhiteguesthouse.com" target="_blank">pointwhiteguesthouse.com</a>.
-		</p>
-
-		</section>
+	
 
 	</div><div class="grid__item project">
 
@@ -327,6 +332,9 @@
 
 				<div class="grid__item six-tenths lap-four-tenths palm-one-whole">
 
+
+					<!-- <img id="photography-hero" src="img/trees.jpg"> -->
+
 				</div><div id="photography-text" class="grid__item four-tenths lap-six-tenths palm-one-whole">
 
 				<h1 id="photography-header" class="clean-header">Photography</h1>
@@ -335,46 +343,54 @@
 				<!-- "photographs. When images become inadequate, I shall be
 				<!-- "content with silence." - Ansel Adams -->
 
-				<img src="img/square-caleb.jpg" class="photo-thumb flip" data-photo="caleb.jpg">
-				<img src="img/square-trees.jpg" class="photo-thumb" data-photo="trees.jpg">
-				<img src="img/square-fisher.jpg" class="photo-thumb" data-photo="fisher.jpg">
-				<img src="img/square-sami.jpg" class="photo-thumb" data-photo="sami.jpg">
-				<img src="img/square-iowa.jpg" class="photo-thumb" data-photo="iowa.jpg">
-				<img src="img/square-obama.jpg" class="photo-thumb" data-photo="obama.jpg">
-				<!-- <img src="img/square-hug.jpg" class="photo-thumb" data-photo="hug.jpg"> -->
-				<img src="img/square-seattle.jpg" class="photo-thumb" data-photo="seattle.jpg">
-				<img src="img/square-byeowa.jpg" class="photo-thumb" data-photo="byeowa.jpg">
-				<img src="img/square-mikey.jpg" class="photo-thumb" data-photo="mikey.jpg">
-				<img src="img/square-up.jpg" class="photo-thumb" data-photo="up.jpg">
-				<img src="img/square-katie.jpg" class="photo-thumb" data-photo="katie.jpg">
-				<img src="img/square-train.jpg" class="photo-thumb" data-photo="train.jpg">
+				<div id="photography-images">
+
+					<img src="img/square-caleb.jpg" class="photo-thumb flip" data-photo="caleb.jpg" alt="Untitled">
+					<img src="img/square-trees.jpg" class="photo-thumb" data-photo="trees.jpg" alt="Growing up">
+					<img src="img/square-fisher.jpg" class="photo-thumb" data-photo="fisher.jpg" alt="Fisher">
+					<img src="img/square-sami.jpg" class="photo-thumb" data-photo="sami.jpg" alt="Go Do">
+					<img src="img/square-iowa.jpg" class="photo-thumb" data-photo="iowa.jpg" alt="Some will be missed">
+					<img src="img/square-obama.jpg" class="photo-thumb" data-photo="obama.jpg" alt="Tears of a President">
+					<!-- <img src="img/square-hug.jpg" class="photo-thumb" data-photo="hug.jpg"> -->
+					<img src="img/square-seattle.jpg" class="photo-thumb" data-photo="seattle.jpg" alt="One little city">
+					<img src="img/square-mikey.jpg" class="photo-thumb" data-photo="mikey.jpg" alt="Conductor">
+
+					<!-- <img src="img/square-byeowa.jpg" class="photo-thumb" data-photo="byeowa.jpg"> -->
+
+					<!-- <img src="img/square-up.jpg" class="photo-thumb" data-photo="up.jpg"> -->
+
+					<!-- <img src="img/square-mountdoom.jpg" class="photo-thumb" data-photo="mountdoom.jpg"> -->
+
+					<!-- <img src="img/square-katie.jpg" class="photo-thumb" data-photo="katie.jpg"> -->
+					<img src="img/square-train.jpg" class="photo-thumb" data-photo="train.jpg" alt="Train car under the stars">
+
+				</div>
 				
 				<p>
 
-					For four years I worked at the
-					Grinnell College Darkroom, and managed it for two. I've
-					photographed for all kinds of events, and generally just
-					like going wherever with a camera and an open attitude.
+					For four years I worked at the Grinnell College Darkroom,
+					managing it for two. I've photographed for all kinds of
+					events, spaces, and artwork. I enjoy the process of trying
+					to speak to what I see, and the nature of an artform
+					that inherently encourages you to explore.
 
 				</p>
 
 				<h4>Experience</h4>
 
-				<p>
 					<ul>
 						<li>Digital cameras/equipment</li>
-						<li>Film developing/enlarging</li>
-						<li>Flashes/basic lighting</li>
-						<li>Adobe Photoshop/Lightroom</li>
-						<li>Flickr/500px/social media</li>
+						<li>Film developing/printing</li>
+						<li>Flashes/lighting</li>
+						<li>Adobe Photoshop/Lightroom/Illustrator</li>
+						<li>Flickr/500px/Instagram/Tumblr</li>
 					</ul>
-				</p>
 
-				<h4>Everything</h4>
+				<!-- <h4>Everything</h4> -->
 				<p>
 
 					If you want to see what I've done lately or everything
-					larger, my Flickr has it.
+					larger, head over to my Flickr.
 
 				</p>
 				
@@ -402,12 +418,12 @@
 						<h1 id="contact-header" class="clean-header">Contact Me</h1>
 						<p id="contact-text">
 
-							Email me, call me, mail me stuff...whatever floats
+							<!-- Email me, call me, mail me stuff...whatever floats
 							your boat.
-							<br><br>
-							<del>9806 43rd PL NE, Seattle WA, 98115. 206-999-3131.</del>
+							<br><br> -->
+							<del>95B Upland Road, Kelburn, Wellington NZ, 6012. 022-353-4477.</del>
 							<br>
-							95B Upland Road, Kelburn, Wellington 6012. 022-353-4477.
+							9806 43rd PL NE, Seattle WA, 98115. 206-999-3131.
 
 						</p>
 

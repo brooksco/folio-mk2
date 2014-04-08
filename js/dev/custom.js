@@ -1,4 +1,4 @@
-// @codekit-prepend "jquery-1.10.2.js"
+// @codekit-prepend "jquery-1.11.0.js"
 // @codekit-prepend "jquery.scrollTo-1.4.3.1.js"
 // @codekit-prepend "jquery.localscroll-1.2.7.js"
 // @codekit-prepend "enquire.js"
@@ -9,14 +9,9 @@
 $(document).ready(function() {
 
 	// Setup the local scrolling effect, relies on jQuery ScrollTo
-	$('#main-header, #scroll-main-header').localScroll({duration:800, offset: -50});
+	$('#main-header, #scroll-main-header, #palm-header').localScroll({duration:800, offset: -52});
 
-	// On thumbnail click
-	$('.photo-thumb').click(function() {
-
-		$('#photography-unit').css("background-image", "url(img/" + $(this).data("photo") + ")" );
-
-	});
+	
 
 	// Fade in/out for dropdown in navbar. CSS transitions don't work on 'display'
 	$('#navbar > li > ul').css({'display': 'block', 'position': 'absolute'}).hide();
@@ -32,7 +27,8 @@ $(document).ready(function() {
 		$('#scroll-navbar > li > ul').fadeToggle(150);
 	});
 
-	// Check if the current screen is less than 700px, where current column size starts looking bad
+
+	// If the screen is less than 700px wide
 	enquire
 	.register("screen and (max-width:700px)", {
 
@@ -42,6 +38,29 @@ $(document).ready(function() {
 
 				$('.four-column').removeClass('text-cols--4');
 				$('.four-column').addClass('text-cols--2');
+
+
+				//  Setup the image lightbox for small screens
+				$('.photo-thumb').each(function() {
+
+					var filename = $(this).data('photo');
+					var title = $(this).attr('alt');
+					$(this).wrap( '<a href="img/' + filename + '" title="' + title + '" data-lightbox="photothumbs"></a>' );
+
+				});
+
+
+				$('#me-content').waypoint(function(direction) {
+
+					if(direction == 'down') {
+						$('#palm-header').fadeIn();
+					} else {
+						$('#palm-header').fadeOut();
+					}
+
+				}, { offset: 150 });
+
+
 		    },      // REQUIRED
 
 		    // If it no longer is, change the text back to 2 columns
@@ -50,16 +69,29 @@ $(document).ready(function() {
 
 		    	$('.four-column').removeClass('text-cols--2');
 		    	$('.four-column').addClass('text-cols--4');
+
+
+		    	//  Reove the image lightbox for small screens
+				$('.photo-thumb').unwrap();
+
 		    }, 
 
 		})
-	.register("screen and (min-width:481px)", {
 
-		// If it is, fade in the fixed navbar.
-		// If it isn't, fade it out if it's there.
+	.register("screen and (min-width:700px)", {
+
 		match : function() {
 
+			// On thumbnail click
+			$('.photo-thumb').click(function() {
+				$('#photography-unit').css("background-image", "url(img/" + $(this).data("photo") + ")" );
+			});
+
+
+			$('#palm-header').hide();
+
 			$('#me-content').waypoint(function(direction) {
+
 				if(direction == 'down') {
 					$('#scroll-header').fadeIn();
 				} else {
@@ -68,8 +100,14 @@ $(document).ready(function() {
 
 			}, { offset: 150 });
 
+		}, // REQUIRED
+
+		unmatch : function() {
+			$('.photo-thumb').off('click');
 		},
 
-	}); // End enquire
+	}); // END ENQUIRE
+
+
 
 }); // End ready

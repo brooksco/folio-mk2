@@ -1,34 +1,35 @@
-<!-- Setup the grid -->
-<div class="grid">
+<div id="main-header">
+	<!-- Setup the grid -->
+	<div class="grid">
 
-	<!-- id the header and setup the proper margins -->
-	<div id="main-header" class="margin-five">
-		<div class="grid__item four-tenths palm-one-whole">
+		<!-- id the header and setup the proper margins -->
+		<div id="main-bar" class="margin-five">
+			<div class="grid__item four-tenths palm-one-whole">
 
-			<!-- Main name link -->
-			<a class="name-link" href="/">
-				<h3 class="name">Colin Brooks</h3>
-			</a>
+				<!-- Main name link -->
+				<a class="name-link" href="/">
+					<h3 class="name">Colin Brooks</h3>
+				</a>
 
-		</div><div class="grid__item six-tenths palm-one-whole">
+			</div><div class="grid__item six-tenths palm-one-whole">
 
-		<!-- Main navbar -->
-		<nav id="navbar" class="nav  nav--block nav--banner">
-			<li>
-				<a href="#anchor-two">Projects</a>
-				<ul>
-					<li><a href="#anchor-two">Renton Area Youth & Family Services</a></li>
-					<li><a href="#project-anchor-one">Grinnell Localfoods Coop</a></li>
-					<li><a href="#project-anchor-two">Point White Guest House</a></li>
-       			</ul>
-			</li>
-			<li><a href="#anchor-three">Photography</a></li>
-			<li><a href="#anchor-four">Contact</a></li>
-		</nav>
+				<!-- Main navbar -->
+				<nav id="navbar" class="nav  nav--block nav--banner">
+					<li><a href="#anchor-two">Projects</a>
+						<ul>
+							<li><a href="#anchor-two">Renton Area Youth & Family Services</a></li>
+							<li><a href="#project-anchor-one">Point White Guest House</a></li>
+							<li><a href="#project-anchor-two">Grinnell Localfoods Coop</a></li>
+						</ul>
+					</li>
+					<li><a href="#anchor-three">Photography</a></li>
+					<li><a href="#anchor-four">Contact</a></li>
+				</nav>
+
+			</div>
+		</div>
 
 	</div>
-</div>
-
 </div>
 <!-- End the main header -->
 
@@ -41,8 +42,8 @@
 		<div id="scroll-main-header" class="margin-five">
 			<div class="grid__item four-tenths palm-one-whole">
 
-				<!-- Insert the CB/design logo, use as return link -->
-				<a href="#anchor-zero" class="name-link">
+				<!-- Main name link -->
+				<a id="scroll-name" href="#anchor-zero" class="name-link">
 					<!-- <img src="img/cb_1_777_200.png" class="logo"> -->
 					<h3 class="name">Colin Brooks</h3>
 				</a>
@@ -55,9 +56,9 @@
 				<li><a href="#anchor-two">Projects</a>
 					<ul>
 						<li><a href="#anchor-two">Renton Area Youth & Family Services</a></li>
-						<li><a href="#project-anchor-one">Grinnell Localfoods Coop</a></li>
-						<li><a href="#project-anchor-two">Point White Guest House</a></li>
-       				</ul>
+						<li><a href="#project-anchor-one">Point White Guest House</a></li>
+						<li><a href="#project-anchor-two">Grinnell Localfoods Coop</a></li>
+					</ul>
 				</li>
 				<li><a href="#anchor-three">Photography</a></li>
 				<li><a href="#anchor-four">Contact</a></li>
@@ -70,4 +71,22 @@
 </div>
 
 </div>
-<!-- End the scrolling header
+
+<!-- End the scrolling header -->
+
+<div id="palm-header">
+
+	<nav id="palm-navbar" class="nav  nav--block nav--banner">
+		<!-- <li><a href="#anchor-one">About</a></li> -->
+		<li><a href="#anchor-two">Projects</a>
+			<ul>
+				<li><a href="#anchor-two">Renton Area Youth & Family Services</a></li>
+				<li><a href="#project-anchor-one">Point White Guest House</a></li>
+				<li><a href="#project-anchor-two">Grinnell Localfoods Coop</a></li>
+			</ul>
+		</li>
+		<li><a href="#anchor-three">Photography</a></li>
+		<li><a href="#anchor-four">Contact</a></li>
+	</nav>
+
+</div>

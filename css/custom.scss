@@ -66,8 +66,14 @@ section {
 	color: $medium-gray;
 }
 
+// Inuit.css override
+.nav--block{
+	letter-spacing: 0;
+	word-spacing: 0;
+}
+
 // Main navbar styling
-#navbar, #scroll-navbar {
+#navbar, #scroll-navbar, #palm-navbar {
 	text-align: center;
 	margin-bottom: 0;
 	float: right;
@@ -79,11 +85,11 @@ section {
 
 			line-height: 2em;
 
-			color: $light-gray;
+			color: $dark-gray;
 			text-decoration: none;
 			font-size: .9em;
 			text-transform: uppercase;
-			background-color: white;
+			background: transparent;
 			font-family: $header-font;
 
 			-webkit-transition: all .15s ease-in-out;
@@ -94,10 +100,11 @@ section {
 
 		}
 
-		> a:hover {
+		&:hover {
 			background-color: $super-light-gray;
 		}
 	}
+
 
 	// Sub menu dropdown styling
 	ul {
@@ -118,7 +125,7 @@ section {
 			font-size: .9em;
 			text-transform: uppercase;
 			background-color: $super-light-gray;
-			color: $light-gray;
+			color: $dark-gray;
 			font-family: $header-font;
 
 			border-top: 1px solid #f9f9f9; // lighter
@@ -141,6 +148,124 @@ section {
 
 }
 
+#main-header {
+	width: 100%;
+	// position: absolute;
+	z-index: 1;
+	top: 0;
+	// background-color:rgba(0,0,0,.2);
+	// background-color: #ffffff;
+
+	// background-color:rgba(255,255,255,.2);
+
+	.name {
+		// color: $super-light-gray;
+	}
+}
+
+// #navbar{
+
+// 	> li {
+
+// 		> a {
+// 			// color: $super-light-gray;
+// 			// color: white;
+// 		}
+
+// 		&:hover {
+// 			// background-color:rgba(0,0,0,.5);
+// 		}
+
+// 	}
+
+// 	ul {
+
+// 		a {
+// 			// background-color:rgba(0,0,0,.5);
+// 			// color: $super-light-gray;
+
+// 			// border-top: 1px solid rgba(0,0,0,.4); // lighter
+// 			// border-bottom: 1px solid rgba(0,0,0,.6); // darker
+// 			// background-clip: padding-box;
+
+
+
+// 			// background-color: $dark-gray;
+// 			// color: $super-light-gray;
+
+// 			// border-top: 1px solid #404040; // lighter
+// 			// border-bottom: 1px solid #262626; // darker
+// 		}
+
+// 		a:hover {
+// 			// background-color:rgba(0,0,0,.6);
+
+// 			// background-color: $light-gray;
+// 			// color: white;
+// 		}
+// 	}
+
+// }
+
+
+// Scrolling header styling
+#scroll-header {
+	display: none; 
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	background-color:rgba(255,255,255,.95);
+}
+
+
+#palm-header {
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color:rgba(0,0,0,.85);
+}
+
+#palm-navbar {
+	float: none;
+
+	> li {
+		> a {
+			color: $super-light-gray;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+
+		&:hover {
+			background-color: $dark-gray;
+		}
+
+	}
+
+	// Sub menu dropdown styling
+	ul {
+		
+
+		a {
+			
+			background-color: $dark-gray;
+			color: $super-light-gray;
+
+			border-top: 1px solid #404040; // lighter
+			border-bottom: 1px solid #262626; // darker
+
+		}
+
+		a:hover {
+			background-color: $light-gray;
+			color: white;
+		}
+
+	}
+}
+
+
 .active-nav {
 	background-color: $super-light-gray;
 }
@@ -153,53 +278,25 @@ section {
 // Name text in the main navbar
 .name {
 
-	line-height: 2.2em;
-	height: 2em;
+	line-height: 2.1em;
+	font-size: 1.7em;
+	height: 0;
 	padding: 0;
 	margin: 0;
 
 	color: $dark-gray;
 	// min-width: 200px;
-	font-weight: normal;
+	font-weight: lighter;
 	vertical-align: middle;
-}
-
-
-// Scrolling header styling
-#scroll-header {
-	display: none; 
-	width: 100%;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	right: 0;
-	background-color: white; // Not sure about this visually
-	background-color:rgba(255,255,255,.95);
-
-	li {
-		a {
-			background: transparent;
-		}
-
-		ul {
-			li {
-				a {
-					// background-color:rgba(119,119,119,.95);
-					// background-color:rgba(238,238,238,.95);
-					background-color: $super-light-gray;
-				}
-			}
-
-		}
-	}
 }
 
 #hero-unit {
 	background-position: center bottom;
 	background-size: cover;
 	background-image: url(../img/rainier.jpg);
+	// background-image: url(../img/trees.jpg);
 	// position: fixed;
-	height:450px;
+	height: 480px;
 
 	// background:url(ferry.jpg) 50% 0 no-repeat fixed;
 	// background:url(images/firstBG.jpg) 50% 0 no-repeat fixed;
@@ -207,10 +304,8 @@ section {
 
 #hero-text {
 	font-size: 1.5em;
-	// color: $dark-gray;
-	// font-family: $header-font;
 	color: white;
-	margin-top: 215px;
+	margin-top: 225px;
 	margin-right: 10%;
 	text-align: center;
 }
@@ -220,7 +315,24 @@ section {
 // Image to go with about text
 #me-image {
 	width: auto;
-	max-width: 300px;
+	// max-width: 300px;
+	// max-width: 240px;
+	max-width: 200px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	// margin-left: 5%;
+	// margin-right: 5%;
+	// margin-right: 2em;
+
+	img {
+		border-radius: 50%;
+
+		transform: rotate(-15deg);
+		-moz-transform: rotate(-15deg);
+		-webkit-transform: rotate(-15deg);
+	}
 }
 
 
@@ -269,6 +381,7 @@ section {
 #skills-list {
 	font-family: 'Raleway';
 	font-size: 1.25em;
+	list-style: none;
 	// text-transform: uppercase;
 }
 
@@ -279,7 +392,8 @@ section {
 #photography-unit {
 	background-position: right bottom;
 	background-size: cover;
-	background-image: url(../img/trees.jpg);
+	background-image: url(../img/sami.jpg);
+	// background-color: black;
 
 	-webkit-transition: background 1s ease-in-out;
 	-moz-transition: background 1s ease-in-out;
@@ -288,16 +402,36 @@ section {
 	transition: background 1s ease-in-out;
 
 	transition-delay: 0.25s;
-	padding-top: 3em;
-	padding-bottom: 6em;
+	padding-top: .5em;
+	padding-bottom: .5em;
 	// position: fixed;
 	// height:450px;
 
+	p {
+		margin-top: .5em;
+	}
+
+	h4 {
+		margin-bottom: .5em;
+	}
+
+}
+
+#photography-images {
+	text-align: center;
+}
+
+#photography-header {
+	margin-bottom: .25em;
 }
 
 .photo-thumb {
-	width: 60px; 
-	margin-bottom: 1em;
+	// width: 60px; 
+	// margin-bottom: 1em;
+
+	// width: 100px;
+	width: 32%;
+	margin: 0;
 }
 
 .photo-thumb:hover {
@@ -307,8 +441,6 @@ section {
 }
 
 #photography-text {
-	// color: white;
-	// margin-left: 12px;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
 	padding-right: 1.5em;
@@ -373,6 +505,7 @@ section {
 	// font-size: 1.25em;
 
 	font-family: 'Raleway';
+	font-style: italic;
 	color: $light-gray;
 }
 
@@ -494,39 +627,78 @@ footer {
 
 
 
-
-
-
-
-
-
 // Media queries
+
+@media (min-width: 700px) {
+
+	// If it isn't !important it'll get overidden elsewhere
+	#palm-header {
+		display: none !important;
+	}
+
+}
+
+@media (max-width: 800px) {
+	#scroll-navbar {
+		li {
+			a {
+				padding-left: 1.25em;
+				padding-right: 1.25em;
+			}
+		}
+	}
+}
 
 // When the scrolling navbar doesn't all fit on one line anymore
 @media (max-width: 700px) {
 
-	// scroll-header should be enough, but enquire makes some funny business so it's best to doubly hide this
-	#scroll-header, #scroll-main-header {
-		display: none;
+	#scroll-header {
+		display: none !important;
 	}
 
-
-}
-
-// When the top navbar doesn't all fit on one line anymore
-@media (max-width: 600px) {
+	// #me-image {
+	// 	margin-right: auto;
+	// }
 
 	.name {
 		font-size: 1.25em;
-		line-height: 2.5em;
+		line-height: 2.75em;
 	}
 
 	#navbar {
 		li {
 			a {
-				padding-left: .75em;
-				padding-right: .75em;
+				padding-left: .5em;
+				padding-right: .5em;
 			}
+		}
+	}
+
+	#photography-unit {
+
+		.margin-five {
+			// margin-right: auto;
+			// margin-left: auto;
+			margin: 0;
+			padding: 0;
+			margin-left: 24px;
+		}
+
+		#photography-text {
+			margin: 0;
+
+			padding-left: 5%;
+			padding-right: 5%;
+
+		}
+
+		.six-tenths {
+			display: none;
+			width: 0;
+		}
+
+		.palm-one-whole {
+			width: 100%;
 		}
 	}
 
@@ -535,29 +707,26 @@ footer {
 
 @include media-query(palm){ 
 
-	.name {
-		font-size: 1.5em;
-	}
-
-	#navbar {
+	#navbar, #scroll-navbar {
 		float: none;
 		li {
 			a {
-				padding-left: 1.5em;
-				padding-right: 1.5em;
+				padding-left: 1em;
+				padding-right: 1em;
 			}
 		}
 	}
 
-
-	#main-header {
+	#main-bar {
 		margin-left: 0;
 		margin-right: 0;
 	}
 
 	.name {
 		text-align: center;
-		margin-bottom: .1em;
+		font-size: 2.25em;
+		line-height: 2.25em;
+		height: 1.75em;
 	}
 
 	#hero-unit {
@@ -565,7 +734,8 @@ footer {
 	}
 
 	#hero-text {
-		margin-top: 165px;
+		margin-top: 150px;
+		// margin-top: 220px;
 		margin-left: 5%;
 		margin-right: 5%;
 	}
@@ -575,13 +745,9 @@ footer {
 		padding-bottom: 2em;
 	}
 
-	// #photography-header {
-	// 	font-size: 250%;
-	// }
+	.project-image {
+		width: 50%;
+	}
 
-	// #photo-box {
-	// 	margin-left: -24px;
-	// }
-
+	
 }
-
