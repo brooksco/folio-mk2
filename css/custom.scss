@@ -3,6 +3,9 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300);
 // @import url(http://fonts.googleapis.com/css?family=Cabin);
 // @import url(http://fonts.googleapis.com/css?family=PT+Sans);
+// @import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400);
+// @import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
 
 
 $dark-gray: #333;
@@ -71,6 +74,36 @@ section {
 	letter-spacing: 0;
 	word-spacing: 0;
 }
+
+
+.header {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+}
+
+#main-header {
+	// background-color:rgba(0,0,0,.2);
+	// background-color:rgba(255,255,255,.2);
+
+	.name {
+		color: $super-light-gray;
+	}
+}
+
+#scroll-header {
+	display: none; 
+	position: fixed;
+	background-color:rgba(255,255,255,.95);
+}
+
+#palm-header {
+	display: none;
+	position: fixed;
+	background-color:rgba(0,0,0,.85);
+}
+
 
 // Main navbar styling
 #navbar, #scroll-navbar, #palm-navbar {
@@ -148,83 +181,44 @@ section {
 
 }
 
-#main-header {
-	width: 100%;
-	// position: absolute;
-	z-index: 1;
-	top: 0;
-	// background-color:rgba(0,0,0,.2);
-	// background-color: #ffffff;
+#navbar{
 
-	// background-color:rgba(255,255,255,.2);
+	> li {
 
-	.name {
-		// color: $super-light-gray;
+		> a {
+			color: $super-light-gray;
+			color: white;
+		}
+
+		&:hover {
+			background-color:rgba(0,0,0,.6);
+		}
+
 	}
-}
 
-// #navbar{
+	ul {
 
-// 	> li {
+		a {
+			background-color:rgba(0,0,0,.6);
+			color: $super-light-gray;
 
-// 		> a {
-// 			// color: $super-light-gray;
-// 			// color: white;
-// 		}
+			border-top: 1px solid rgba(0,0,0,.5); // lighter
+			border-bottom: 1px solid rgba(0,0,0,.7); // darker
+			background-clip: padding-box;
 
-// 		&:hover {
-// 			// background-color:rgba(0,0,0,.5);
-// 		}
+			// background-color: $dark-gray;
+			// border-top: 1px solid #404040; // lighter
+			// border-bottom: 1px solid #262626; // darker
+		}
 
-// 	}
+		a:hover {
+			background-color:rgba(0,0,0,.9);
+			color: white;
+			// background-color: $light-gray;
+			// background-color: $dark-gray;
+		}
+	}
 
-// 	ul {
-
-// 		a {
-// 			// background-color:rgba(0,0,0,.5);
-// 			// color: $super-light-gray;
-
-// 			// border-top: 1px solid rgba(0,0,0,.4); // lighter
-// 			// border-bottom: 1px solid rgba(0,0,0,.6); // darker
-// 			// background-clip: padding-box;
-
-
-
-// 			// background-color: $dark-gray;
-// 			// color: $super-light-gray;
-
-// 			// border-top: 1px solid #404040; // lighter
-// 			// border-bottom: 1px solid #262626; // darker
-// 		}
-
-// 		a:hover {
-// 			// background-color:rgba(0,0,0,.6);
-
-// 			// background-color: $light-gray;
-// 			// color: white;
-// 		}
-// 	}
-
-// }
-
-
-// Scrolling header styling
-#scroll-header {
-	display: none; 
-	width: 100%;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	background-color:rgba(255,255,255,.95);
-}
-
-
-#palm-header {
-	display: none;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color:rgba(0,0,0,.85);
 }
 
 #palm-navbar {
@@ -238,7 +232,8 @@ section {
 		}
 
 		&:hover {
-			background-color: $dark-gray;
+			// background-color: $dark-gray;
+			background-color:rgba(0,0,0,.95);
 		}
 
 	}
@@ -246,19 +241,25 @@ section {
 	// Sub menu dropdown styling
 	ul {
 		
-
 		a {
-			
-			background-color: $dark-gray;
+			// background-color: $dark-gray;
+			// color: $super-light-gray;
+
+			// border-top: 1px solid #404040; // lighter
+			// border-bottom: 1px solid #262626; // darker
+
+			background-color:rgba(0,0,0,.85);
 			color: $super-light-gray;
 
-			border-top: 1px solid #404040; // lighter
-			border-bottom: 1px solid #262626; // darker
+			border-top: 1px solid rgba(0,0,0,.8); // lighter
+			border-bottom: 1px solid rgba(0,0,0,.9); // darker
+			background-clip: padding-box;
 
 		}
 
 		a:hover {
-			background-color: $light-gray;
+			// background-color: $light-gray;
+			background-color:rgba(0,0,0,.95);
 			color: white;
 		}
 
@@ -293,7 +294,7 @@ section {
 #hero-unit {
 	background-position: center bottom;
 	background-size: cover;
-	background-image: url(../img/rainier.jpg);
+	background-image: url(../img/southroad.jpg);
 	// background-image: url(../img/trees.jpg);
 	// position: fixed;
 	height: 480px;
@@ -303,33 +304,56 @@ section {
 }
 
 #hero-text {
-	font-size: 1.5em;
 	color: white;
-	margin-top: 225px;
-	margin-right: 10%;
+	font-family: 'Amatic SC';
+	font-size: 8em;
+	// margin-top: 190px;
+
+	position: absolute;
+	width: 100%;
+
+	// top: 250px;
 	text-align: center;
+	// margin-left: 5%;
+	// margin-right: 5%;
 }
 
+#scroll-arrow{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 
+	// bottom: 40px;
+
+	text-align: center;
+	font-family: 'Amatic SC';
+	font-size: 8em;
+	// color: rgba(255,255,255,.2);
+	color: white;
+
+	transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(87deg);
+
+}
 
 // Image to go with about text
 #me-image {
 	width: auto;
-	// max-width: 300px;
-	// max-width: 240px;
 	max-width: 200px;
 
 	margin-left: auto;
 	margin-right: auto;
 
-	// margin-left: 5%;
-	// margin-right: 5%;
-	// margin-right: 2em;
-
 	img {
 		border-radius: 50%;
 
 		transform: rotate(-15deg);
+		-o-transform: rotate(-15deg);
+		-ms-transform: rotate(-15deg);
 		-moz-transform: rotate(-15deg);
 		-webkit-transform: rotate(-15deg);
 	}
@@ -392,7 +416,7 @@ section {
 #photography-unit {
 	background-position: right bottom;
 	background-size: cover;
-	background-image: url(../img/sami.jpg);
+	background-image: url(../img/trees.jpg);
 	// background-color: black;
 
 	-webkit-transition: background 1s ease-in-out;
@@ -448,7 +472,7 @@ section {
 	// margin-right: -24px;
 	background-color:rgba(0,0,0,.85);
 	// background-color:rgba(255,255,255,.85);
-	color: white;
+	color: $super-light-gray;
 }
 
 #flickr-link {
@@ -478,6 +502,7 @@ section {
 	color: #ff0083;
 }
 
+
 // End photography styling
 
 
@@ -503,9 +528,8 @@ section {
 	width: 100%;
 	max-width: 600px;
 	// font-size: 1.25em;
-
-	font-family: 'Raleway';
-	font-style: italic;
+	// font-family: 'Raleway';
+	// font-style: italic;
 	color: $light-gray;
 }
 
@@ -581,13 +605,13 @@ input:focus, textarea:focus {
 .clean-header {
 	font-weight: lighter;
 	text-transform: uppercase;
-	font-size: 2.25em;
+	font-size: 2.75em;
 }
 
 .clean-subheader {
 	font-weight: normal;
 	margin-bottom: .5em;
-	font-size: 1.75em;
+	font-size: 2em;
 	line-height: 1.25em;
 }
 
@@ -674,6 +698,10 @@ footer {
 		}
 	}
 
+	#hero-text, #scroll-arrow {
+		font-size: 5em;
+	}
+
 	#photography-unit {
 
 		.margin-five {
@@ -702,6 +730,8 @@ footer {
 		}
 	}
 
+
+
 }
 
 
@@ -717,6 +747,10 @@ footer {
 		}
 	}
 
+	#photography-header {
+		font-size: 2.5em;
+	}
+
 	#main-bar {
 		margin-left: 0;
 		margin-right: 0;
@@ -729,16 +763,6 @@ footer {
 		height: 1.75em;
 	}
 
-	#hero-unit {
-		height: 400px;
-	}
-
-	#hero-text {
-		margin-top: 150px;
-		// margin-top: 220px;
-		margin-left: 5%;
-		margin-right: 5%;
-	}
 
 	#photography-unit {
 		padding-top: 0;

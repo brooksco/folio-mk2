@@ -8,10 +8,30 @@
 // Once the page has loaded...
 $(document).ready(function() {
 
+	// Use the window height to set the hero unit height/text margin
+	var windowheight = $(window).height();
+	var windowwidth	= $(window).width();
+	var heromargin = (windowheight/2) - 100;
+	var arrowmargin = (windowheight/2) +80;
+
+	// Adjusts for small screens in landscape
+	if (windowheight < 350) {
+		heromargin += 40;
+		arrowmargin -= 35;
+	}
+
+	$('#hero-unit').css({'height': windowheight}); 
+	$('#hero-text').css({'top': heromargin});
+	$('#scroll-arrow').css({'top': arrowmargin});
+
+	// Hide it at first, then fade it in nicely
+	$('#scroll-arrow, #main-header').hide();
+	$('#scroll-arrow, #main-header').delay(1400).fadeIn(2400);
+
+
 	// Setup the local scrolling effect, relies on jQuery ScrollTo
 	$('#main-header, #scroll-main-header, #palm-header').localScroll({duration:800, offset: -52});
 
-	
 
 	// Fade in/out for dropdown in navbar. CSS transitions don't work on 'display'
 	$('#navbar > li > ul').css({'display': 'block', 'position': 'absolute'}).hide();

@@ -4,7 +4,6 @@
 <html>
 <head>
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0">
 
 	<title>Colin Brooks</title>
@@ -26,12 +25,13 @@
 
 	<!-- Setup the grid -->
 	<div class="grid">
-		<div class="grid__item one-third palm-one-whole">
-		</div><div class="grid__item two-thirds palm-one-whole">
+		<div class="grid__item">
 		<p id="hero-text">
-			<!-- My name is Colin Brooks, and I like to make things. -->
-			Meeting in the middle between web and photo.
+			<!-- Meeting in the middle between web and photo. -->
+			<!-- &darr; &or;-->
+			Web + Photo :)
 		</p>
+		<p id="scroll-arrow">»</p>
 	</div>
 </div>
 <!-- End of the hero unit, and anchor zero -->
@@ -73,10 +73,10 @@
 
 					<p>
 
-						I like a lot of different things, so my approach
-						trends towards inclusion. With the natural
-						relationship between web and photography, I think it's
-						good to have a strong working knowledge of both.
+						I like a lot of different things (like art, kids, and rolling around outdoors), so my approach
+						to projects reflects that. With the natural
+						relationship between the web and photography, I think it's
+						valuable to have experience in both.
 
 					</p>
 

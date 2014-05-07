@@ -1,4 +1,4 @@
-<div id="main-header">
+<div id="main-header" class="header">
 	<!-- Setup the grid -->
 	<div class="grid">
 
@@ -34,7 +34,7 @@
 <!-- End the main header -->
 
 <!-- Header that scrolls in down the page on larger form factors -->
-<div id="scroll-header">
+<div id="scroll-header" class="header">
 	<!-- Setup the grid -->
 	<div class="grid">
 
@@ -74,7 +74,7 @@
 
 <!-- End the scrolling header -->
 
-<div id="palm-header">
+<div id="palm-header" class="header">
 
 	<nav id="palm-navbar" class="nav  nav--block nav--banner">
 		<!-- <li><a href="#anchor-one">About</a></li> -->
