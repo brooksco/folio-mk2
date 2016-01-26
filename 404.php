@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -64,7 +63,6 @@
    <div id="bearror-of-bad-news">
     <h2>Ruh roh.</h2>
     <p>The page that maybe should be here seems to not be here. You might have mistyped something, or the page might have become lost. But remember, we are <em>alive</em>.</p>
-    <!-- <p><a id="somewhere" href="/">Get back to somewhere.</a></p> -->
   </div>
 </div>
 

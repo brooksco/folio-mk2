@@ -1,24 +1,18 @@
-<?php require_once( 'couch/cms.php' ); ?>
-
 <!DOCTYPE html>
 <html>
 <head>
-
 	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0">
 
 	<title>Colin Brooks</title>
 
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/custom-min.js" type="text/javascript"></script>
-
 </head>
 <body>
 
-
-	<!-- Header -->
-	<?php include 'header.php'; ?>
-	<!-- End Header -->
-
+<!-- Header -->
+<?php include 'header.php'; ?>
+<!-- End Header -->
 
 <!-- Hero unit, with anchor point zero -->
 <section name="anchor-zero" id="hero-unit">
@@ -26,11 +20,7 @@
 	<!-- Setup the grid -->
 	<div class="grid">
 		<div class="grid__item">
-		<p id="hero-text">
-			<!-- Meeting in the middle between web and photo. -->
-			<!-- &darr; &or;-->
-			Web + Photo :)
-		</p>
+		<p id="hero-text">Photo + Web :)</p>
 		<p id="scroll-arrow">»</p>
 	</div>
 </div>
@@ -57,17 +47,14 @@
 				<div id="me-content">	
 					<h1 class="clean-header">About Me</h1>
 
-					<!-- Two column text format -->
-					<!-- class="text-cols--2" -->
 					<p>
 						
-						I'm originally from Seattle, WA, and just moved back from Wellington, New Zealand. I
-						graduated in May from Grinnell College with a
+						I'm originally from Seattle, WA, and recently moved back from Wellington, New Zealand. I
+						graduated in May 2013 from Grinnell College with a
 						degree in General Science: Computer Science, and a
 						concentration in Neuroscience. I've spent my summers
 						working with at-risk youth, doing art in the park with
-						kids in Iowa, and building websites for community non-
-						profits.
+						kids in Iowa, and building websites for community non-profits.
 
 					</p>
 
@@ -76,7 +63,7 @@
 						I like a lot of different things (like art, kids, and rolling around outdoors), so my approach
 						to projects reflects that. With the natural
 						relationship between the web and photography, I think it's
-						valuable to have experience in both.
+						valuable to have experience in both. 
 
 					</p>
 
@@ -124,7 +111,7 @@
 		</div>
 
 		<h3 class="clean-subheader">Renton Area Youth & Family Services</h3>
-		<h4><em>Web Designer, May 2013 - September 2013</em></h4>
+		<h4><em>Web Designer & Photographer, May 2013 - September 2013</em></h4>
 
 		<section class="two-column text-cols--2">
 		
@@ -162,7 +149,7 @@
 
 	</section>
 
-	<span name="project-anchor-one"></span>
+	<span name="project-anchor-pw"></span>
 
 	</div><div class="grid__item project">
 
@@ -190,7 +177,7 @@
 		</div>
 
 	<h3 class="clean-subheader">Point White Guest House</h3>
-		<h4><em>Web Designer, August 2013</em></h4>
+		<h4><em>Web Designer & Photographer, August 2013</em></h4>
 
 		<section class="two-column text-cols--2">
 		
@@ -224,7 +211,61 @@
 
 		</section>
 
-		<span name="project-anchor-two"></span>
+		<span name="project-anchor-fundersen"></span>
+
+	</div><div class="grid__item project">
+
+	<div class="project-image-wrapper">
+			<a href="img/project/fundersen-photo.jpg" 
+						data-lightbox="fundersen" 
+						title="Simple, clean, and horizontally scrolling to show off his best work multiple images at a time.">
+				<img src="img/project/fundersen-photo.jpg" class="project-image">
+			</a>
+			<a href="img/project/fundersen-video.jpg" 
+						data-lightbox="fundersen" 
+						title="Quinn's video projects vary in what has been (and can be) posted online, so each project is displayed as a chunk of whatever relevant media is publically available.">
+				<img src="img/project/fundersen-video.jpg" class="project-image">
+			</a>
+			<a href="img/project/fundersen-mobile.jpg" 
+						data-lightbox="fundersen" 
+						title="Being mobile friendly is vital in an industry where you might have at best a few seconds to make an impression as they check their phone between coffees.">
+				<img src="img/project/fundersen-mobile.jpg" class="project-image">
+			</a>
+			<a href="img/project/fundersen-contact.jpg" 
+						data-lightbox="fundersen" 
+						title="The ultimate goal of the portfolio is to draw in new contacts, so a contact form is front and center on the site.">
+				<img src="img/project/fundersen-contact.jpg" class="project-image">
+			</a>
+		</div>
+
+	<h3 class="clean-subheader">Fundersen</h3>
+		<h4><em>Web Designer, Spring 2014 - Summer 2014</em></h4>
+
+		<section class="two-column text-cols--2">
+		
+		<p>
+			Portfolio sites can be an odd blend of needing to be familiar and
+			easy to process, while at the same time standing out just enough
+			to be remembered. It's a cliche but content really is key, and the
+			design needs to reflect that. For Quinn Gundersen's portfolio I
+			worked with him to find a clean style that reflected how
+			<em>he</em> wanted to be seen, and was flexible enough to
+			accomodate new and different types of work in the future.
+		</p>
+
+		<p>
+			Built on WordPress so it's easy for him to update, and mobile friendly so it can be found and viewed anywhere, Fundersen.com
+			is an important tool for Quinn to be able to best market his talents.
+		</p>
+
+		<p>
+			Check it out at 
+			 <a href="http://fundersen.com" target="_blank">fundersen.com</a>.
+		</p>
+
+		</section>
+
+		<span name="project-anchor-localfoods"></span>
 		
 		</div><div  class="grid__item project">
 
@@ -280,14 +321,6 @@
 						devices of all sizes.
 
 					</p>
-					<p>
-
-						It's all currently being prepped for deployment, but
-						you can visit the shakey development server
-						temporarily <a
-						href="http://fulkerson.cs.grinnell.edu" target="_blank">here</a>.
-
-					</p>
 
 				</section>
 	
@@ -306,7 +339,7 @@
 			<li>PHP</li>
 			<li>Ruby on Rails</li>
 			<li>mySQL</li>
-			<li>Couch CMS</li>
+			<li>Phonegap</li>
 			<li>WordPress</li>
 			<li>Git/GitHub</li>
 		</ul>
@@ -332,16 +365,9 @@
 
 				<div class="grid__item six-tenths lap-four-tenths palm-one-whole">
 
-
-					<!-- <img id="photography-hero" src="img/trees.jpg"> -->
-
 				</div><div id="photography-text" class="grid__item four-tenths lap-six-tenths palm-one-whole">
 
 				<h1 id="photography-header" class="clean-header">Photography</h1>
-
-				<!-- "When words become unclear, I shall focus with
-				<!-- "photographs. When images become inadequate, I shall be
-				<!-- "content with silence." - Ansel Adams -->
 
 				<div id="photography-images">
 
@@ -354,13 +380,9 @@
 					<!-- <img src="img/square-hug.jpg" class="photo-thumb" data-photo="hug.jpg"> -->
 					<img src="img/square-seattle.jpg" class="photo-thumb" data-photo="seattle.jpg" alt="One little city">
 					<img src="img/square-mikey.jpg" class="photo-thumb" data-photo="mikey.jpg" alt="Conductor">
-
 					<!-- <img src="img/square-byeowa.jpg" class="photo-thumb" data-photo="byeowa.jpg"> -->
-
 					<!-- <img src="img/square-up.jpg" class="photo-thumb" data-photo="up.jpg"> -->
-
 					<!-- <img src="img/square-mountdoom.jpg" class="photo-thumb" data-photo="mountdoom.jpg"> -->
-
 					<!-- <img src="img/square-katie.jpg" class="photo-thumb" data-photo="katie.jpg"> -->
 					<img src="img/square-train.jpg" class="photo-thumb" data-photo="train.jpg" alt="Train car under the stars">
 
@@ -386,7 +408,6 @@
 						<li>Flickr/500px/Instagram/Tumblr</li>
 					</ul>
 
-				<!-- <h4>Everything</h4> -->
 				<p>
 
 					If you want to see what I've done lately or everything
@@ -417,98 +438,26 @@
 					<div id="contact-content">
 						<h1 id="contact-header" class="clean-header">Contact Me</h1>
 						<p id="contact-text">
-
-							<!-- Email me, call me, mail me stuff...whatever floats
-							your boat.
-							<br><br> -->
 							<del>95B Upland Road, Kelburn, Wellington NZ, 6012. 022-353-4477.</del>
 							<br>
 							9806 43rd PL NE, Seattle WA, 98115. 206-999-3131.
-
 						</p>
 
+						<p>
+							hello[at]colinbrooks[dot]co
+						</p>
 
-								<!-- Contact form -->
-				<cms:form method='post' id='contact-form'>
-
-				<ul class="form-fields">
-
-					<li>
-						<label class="contact-label" for="name">Name</label>
-						<cms:input type='text' name='name' id='name' required='1' class="contact-input" />
-						<cms:if k_error_name>
-							<p id='name-error' class='error' style="display:block;">Insert a name</p>
-						</cms:if>
-					</li>
-
-					<li>
-						<label class="contact-label" for="email">Email</label>
-						<cms:input type='text' name='email' id='email' required='1' validator='email' class="contact-input"/>
-						<cms:if k_error_email>
-							<p id='email-error' class='error' style="display:block;">Enter a valid email address</p>
-						</cms:if>
-					</li>
-
-					<li>
-						<label class="contact-label" for="name">Subject</label>
-						<cms:input type='text' name='subject' id='subject' required='1' class="contact-input" />
-						<cms:if k_error_subject>
-							<p id='subject-error' class='error' style="display:block;">Enter a message subject</p>
-						</cms:if>
-					</li>
-
-					<li>
-						<label class="contact-label" for="name">Message</label>
-						<cms:input type='textarea' name='message' id='message' required='1' rows='8' id="contact-message" class="contact-input"></cms:input>
-						<cms:if k_error_message>
-							<p id='message-error' class='error' style="display:block;">Enter a message</p>
-						</cms:if>
-					</li>
-
-					</ul>
-
-					<cms:if k_success >
-						<p id="mail-success" class="success" style="display:block;">Thank you, I'll get back to you soon.</p>
-						
-						<script type="text/javascript">
-							$(document).ready(function() {
-								$('.contact-input, .contact-label, #contact-submit').hide();
-							});
-						</script>
-
-						<cms:send_mail from=k_email_from to=k_email_to subject='Message from colinbrooks.us'>
-							Somebody sent you this:
-							<br><br>
-							<cms:show k_success />
-						</cms:send_mail>
-
-					</cms:if>
-
-					<input class="btn btn--hard" id="contact-submit" type="submit" value="Send message" name="submit" />
-
-				</cms:form>
-
-
-
-
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
-			<!-- End of contact form, and anchor four -->
-		</section>
+		</div>
+	</div>
+<!-- End of contact form, and anchor four -->
+</section>
 
-
-
-
-
-		<!-- Footer -->
-		<?php include 'footer.php'; ?>
-		<!-- End Footer -->
-
+<!-- Footer -->
+<?php include 'footer.php'; ?>
+<!-- End Footer -->
 
 </body>
 </html>
-
-<?php COUCH::invoke(); ?>

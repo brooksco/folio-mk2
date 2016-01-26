@@ -1,11 +1,10 @@
-// @codekit-prepend "jquery-1.11.0.js"
+// @codekit-prepend "jquery-2.1.3.js"
 // @codekit-prepend "jquery.scrollTo-1.4.3.1.js"
 // @codekit-prepend "jquery.localscroll-1.2.7.js"
 // @codekit-prepend "enquire.js"
 // @codekit-prepend "waypoints.js"
-// @codekit-prepend "lightbox-2.6.min.js"
+// @codekit-prepend "lightbox-2.7.min.js"
 
-// Once the page has loaded...
 $(document).ready(function() {
 
 	// Use the window height to set the hero unit height/text margin
@@ -62,22 +61,18 @@ $(document).ready(function() {
 
 				//  Setup the image lightbox for small screens
 				$('.photo-thumb').each(function() {
-
 					var filename = $(this).data('photo');
 					var title = $(this).attr('alt');
 					$(this).wrap( '<a href="img/' + filename + '" title="' + title + '" data-lightbox="photothumbs"></a>' );
-
 				});
 
 
 				$('#me-content').waypoint(function(direction) {
-
-					if(direction == 'down') {
+					if (direction == 'down') {
 						$('#palm-header').fadeIn();
 					} else {
 						$('#palm-header').fadeOut();
 					}
-
 				}, { offset: 150 });
 
 
@@ -90,29 +85,25 @@ $(document).ready(function() {
 		    	$('.four-column').removeClass('text-cols--2');
 		    	$('.four-column').addClass('text-cols--4');
 
-
 		    	//  Reove the image lightbox for small screens
-				$('.photo-thumb').unwrap();
-
-		    }, 
+		    	$('.photo-thumb').unwrap();
+		    }
 
 		})
 
 	.register("screen and (min-width:700px)", {
 
 		match : function() {
-
 			// On thumbnail click
 			$('.photo-thumb').click(function() {
 				$('#photography-unit').css("background-image", "url(img/" + $(this).data("photo") + ")" );
 			});
 
-
 			$('#palm-header').hide();
 
 			$('#me-content').waypoint(function(direction) {
 
-				if(direction == 'down') {
+				if (direction == 'down') {
 					$('#scroll-header').fadeIn();
 				} else {
 					$('#scroll-header').fadeOut();
@@ -120,14 +111,13 @@ $(document).ready(function() {
 
 			}, { offset: 150 });
 
-		}, // REQUIRED
+			}, // REQUIRED
 
 		unmatch : function() {
 			$('.photo-thumb').off('click');
-		},
+		}
 
 	}); // END ENQUIRE
-
 
 
 }); // End ready

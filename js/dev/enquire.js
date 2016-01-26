@@ -1,11 +1,11 @@
 /*!
- * enquire.js v2.1.0 - Awesome Media Queries in JavaScript
- * Copyright (c) 2013 Nick Williams - http://wicky.nillia.ms/enquire.js
+ * enquire.js v2.1.2 - Awesome Media Queries in JavaScript
+ * Copyright (c) 2014 Nick Williams - http://wicky.nillia.ms/enquire.js
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
  */
 
 ;(function (name, context, factory) {
-    var matchMedia = context.matchMedia;
+    var matchMedia = window.matchMedia;
 
     if (typeof module !== 'undefined' && module.exports) {
         module.exports = factory(matchMedia);
@@ -259,6 +259,9 @@
                 options = [options];
             }
             each(options, function(handler) {
+                if (isFunction(handler)) {
+                    handler = { match : handler };
+                }
                 queries[q].addHandler(handler);
             });
 

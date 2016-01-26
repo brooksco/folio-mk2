@@ -292,7 +292,7 @@ section {
 }
 
 #hero-unit {
-	background-position: center bottom;
+	background-position: center top;
 	background-size: cover;
 	background-image: url(../img/southroad.jpg);
 	// background-image: url(../img/trees.jpg);
@@ -416,7 +416,7 @@ section {
 #photography-unit {
 	background-position: right bottom;
 	background-size: cover;
-	background-image: url(../img/trees.jpg);
+	background-image: url(../img/sami.jpg);
 	// background-color: black;
 
 	-webkit-transition: background 1s ease-in-out;
@@ -428,8 +428,6 @@ section {
 	transition-delay: 0.25s;
 	padding-top: .5em;
 	padding-bottom: .5em;
-	// position: fixed;
-	// height:450px;
 
 	p {
 		margin-top: .5em;

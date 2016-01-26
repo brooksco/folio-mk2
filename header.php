@@ -18,8 +18,9 @@
 					<li><a href="#anchor-two">Projects</a>
 						<ul>
 							<li><a href="#anchor-two">Renton Area Youth & Family Services</a></li>
-							<li><a href="#project-anchor-one">Point White Guest House</a></li>
-							<li><a href="#project-anchor-two">Grinnell Localfoods Coop</a></li>
+							<li><a href="#project-anchor-pw">Point White Guest House</a></li>
+							<li><a href="#project-anchor-fundersen">Fundersen</a></li>
+							<li><a href="#project-anchor-localfoods">Grinnell Localfoods Coop</a></li>
 						</ul>
 					</li>
 					<li><a href="#anchor-three">Photography</a></li>
@@ -56,8 +57,9 @@
 				<li><a href="#anchor-two">Projects</a>
 					<ul>
 						<li><a href="#anchor-two">Renton Area Youth & Family Services</a></li>
-						<li><a href="#project-anchor-one">Point White Guest House</a></li>
-						<li><a href="#project-anchor-two">Grinnell Localfoods Coop</a></li>
+						<li><a href="#project-anchor-pw">Point White Guest House</a></li>
+						<li><a href="#project-anchor-fundersen">Fundersen</a></li>
+						<li><a href="#project-anchor-localfoods">Grinnell Localfoods Coop</a></li>
 					</ul>
 				</li>
 				<li><a href="#anchor-three">Photography</a></li>
